@@ -1,0 +1,13 @@
+================================================================================
+InvisVM Sandbox Log - Document (writer_libre.odt)
+================================================================================
+Start Time: 2025-11-03 10:55:09
+Security Policy: RESTRICTIVE
+Sandbox ID: 462e4c7b
+================================================================================
+
+[10:55:09] STARTUP: Initializing sandbox with restrictive policy
+[10:55:09] LAUNCH: Starting application in restrictive sandbox
+[10:55:09] SUCCESS: Application started successfully (PID: 76069)
+[10:55:09] RESTRICTED: Network access blocked by policy
+[10:55:09] INFO: Application is running in restricted mode

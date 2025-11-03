@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Gnome-calculator
+================================================================================
+Start Time: 2025-11-03 01:29:41
+Security Policy: RESTRICTIVE
+Sandbox ID: 1b06ec7a
+================================================================================
+
+[01:29:41] STARTUP: Initializing sandbox with restrictive policy
+[01:29:41] LAUNCH: Starting application in restrictive sandbox
+[01:29:41] SUCCESS: Application started successfully (PID: 48739)
+[01:29:41] RESTRICTED: Network access blocked by policy
+[01:29:41] INFO: Application is running in restricted mode
+[01:29:48] SHUTDOWN: Sandbox terminated by user

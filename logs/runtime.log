@@ -1,0 +1,2468 @@
+================================================================================
+InvisVM Runtime Log - Session Started
+Timestamp: 2025-11-02 19:07:59
+================================================================================
+
+[2025-11-02 19:07:59] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 19:07:59] INFO: Security policy: standard
+[2025-11-02 19:07:59] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 19:07:59] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-02 19:07:59] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 19:07:59] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 19:07:59] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 14581) in standard sandbox
+[2025-11-02 19:08:38] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-02 19:08:38] INFO: Security policy: restrictive
+[2025-11-02 19:08:38] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-02 19:08:38] INFO: Application: File (zip_file.zip)
+[2025-11-02 19:08:38] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 19:08:38] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-02 19:08:38] SUCCESS: Successfully launched File (zip_file.zip) (PID: 14670) in restrictive sandbox
+[2025-11-02 19:09:13] INFO: Application closed: File (zip_file.zip) (ran for 34.8s)
+[2025-11-02 19:09:23] INFO: Preparing to launch: firefox
+[2025-11-02 19:09:23] INFO: Security policy: restrictive
+[2025-11-02 19:09:23] INFO: Resolved path: firefox
+[2025-11-02 19:09:23] INFO: Application: Firefox
+[2025-11-02 19:09:23] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 19:09:23] INFO: Created Firefox profile: invisvm-46cf9f67
+[2025-11-02 19:09:23] INFO: Firefox: Using unique profile invisvm-46cf9f67
+[2025-11-02 19:09:23] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-46cf9f67 --new-instance --no-remote
+[2025-11-02 19:09:23] SUCCESS: Successfully launched Firefox (PID: 14756) in restrictive sandbox
+[2025-11-02 19:10:08] INFO: Sent shutdown to Firefox (PID: 14756)
+[2025-11-02 19:10:08] INFO: Application closed: Firefox (ran for 45.0s)
+[2025-11-02 19:10:08] INFO: Sent SIGKILL to Firefox (PID: 14756)
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 20:15:31
+================================================================================
+
+[2025-11-02 20:15:35] INFO: Cleanup: Removed 0 instances, freed 0.00 MB
+[2025-11-02 20:15:57] INFO: Preparing to launch: firefox
+[2025-11-02 20:15:57] INFO: Security policy: restrictive
+[2025-11-02 20:15:57] INFO: Resolved path: firefox
+[2025-11-02 20:15:57] INFO: Application: Firefox
+[2025-11-02 20:15:57] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 20:15:57] INFO: Created Firefox profile: invisvm-9c7c2299
+[2025-11-02 20:15:57] INFO: Firefox: Using unique profile invisvm-9c7c2299
+[2025-11-02 20:15:57] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-9c7c2299 --new-instance --no-remote
+[2025-11-02 20:15:57] SUCCESS: Successfully launched Firefox (PID: 23212) in restrictive sandbox
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 20:16:49
+================================================================================
+
+[2025-11-02 20:16:49] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 20:16:49] INFO: Security policy: standard
+[2025-11-02 20:16:49] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 20:16:49] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-02 20:16:49] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 20:16:49] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 20:16:49] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 23802) in standard sandbox
+[2025-11-02 20:17:15] INFO: Sent shutdown to Firefox (PID: 23212)
+[2025-11-02 20:17:16] INFO: Sent SIGKILL to Firefox (PID: 23212)
+[2025-11-02 20:17:16] INFO: Application closed: Firefox (ran for 78.1s)
+[2025-11-02 20:17:16] ERROR: Error monitoring process: 23212
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 20:17:49
+================================================================================
+
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:15:46
+================================================================================
+
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:16:24
+================================================================================
+
+[2025-11-02 22:16:27] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 22:16:27] INFO: Security policy: restrictive
+[2025-11-02 22:16:27] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 22:16:27] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-02 22:16:27] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 22:16:27] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 22:16:27] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 26863) in restrictive sandbox
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:19:24
+================================================================================
+
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:24:14
+================================================================================
+
+[2025-11-02 22:24:14] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 22:24:14] INFO: Security policy: standard
+[2025-11-02 22:24:14] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 22:24:14] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-02 22:24:14] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 22:24:14] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 22:24:14] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 28170) in standard sandbox
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:24:25
+================================================================================
+
+[2025-11-02 22:24:30] INFO: Sent shutdown to PDF (pdf_file.pdf) (PID: 28170)
+[2025-11-02 22:24:31] INFO: Sent SIGKILL to PDF (pdf_file.pdf) (PID: 28170)
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:38:32
+================================================================================
+
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:43:01
+================================================================================
+
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 22:52:07
+================================================================================
+
+[2025-11-02 22:52:32] INFO: Preparing to launch: firefox
+[2025-11-02 22:52:32] INFO: Security policy: restrictive
+[2025-11-02 22:52:32] INFO: Resolved path: firefox
+[2025-11-02 22:52:32] INFO: Application: Firefox
+[2025-11-02 22:52:32] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 22:52:32] INFO: Created Firefox profile: invisvm-477ae89d
+[2025-11-02 22:52:32] INFO: Firefox: Using unique profile invisvm-477ae89d
+[2025-11-02 22:52:32] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-477ae89d --new-instance --no-remote
+[2025-11-02 22:52:32] SUCCESS: Successfully launched Firefox (PID: 31804) in restrictive sandbox
+[2025-11-02 22:53:03] INFO: Sent shutdown to Firefox (PID: 31804)
+[2025-11-02 22:53:03] INFO: Sent SIGKILL to Firefox (PID: 31804)
+[2025-11-02 22:53:03] INFO: Application closed: Firefox (ran for 31.5s)
+[2025-11-02 22:53:03] ERROR: Error monitoring process: 31804
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 23:06:25
+================================================================================
+
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-02 23:06:34
+================================================================================
+
+[2025-11-02 23:06:38] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 23:06:38] INFO: Security policy: standard
+[2025-11-02 23:06:38] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 23:06:38] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-02 23:06:38] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 23:06:38] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-02 23:06:38] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 32803) in standard sandbox
+[2025-11-02 23:07:06] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/png_img.png
+[2025-11-02 23:07:06] INFO: Security policy: restrictive
+[2025-11-02 23:07:06] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/png_img.png
+[2025-11-02 23:07:06] INFO: Application: Image (png_img.png)
+[2025-11-02 23:07:06] INFO: Blocking D-Bus (app does not require it)
+[2025-11-02 23:07:06] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/png_img.png
+[2025-11-02 23:07:06] SUCCESS: Successfully launched Image (png_img.png) (PID: 32933) in restrictive sandbox
+[2025-11-02 23:07:24] INFO: Sent shutdown to PDF (pdf_file.pdf) (PID: 32803)
+[2025-11-02 23:07:25] INFO: Sent SIGKILL to PDF (pdf_file.pdf) (PID: 32803)
+[2025-11-02 23:07:25] INFO: Application closed: PDF (pdf_file.pdf) (ran for 47.1s)
+[2025-11-02 23:07:25] ERROR: Error monitoring process: 32803
+[2025-11-02 23:07:30] INFO: Sent shutdown to Image (png_img.png) (PID: 32933)
+[2025-11-02 23:07:30] INFO: Sent SIGKILL to Image (png_img.png) (PID: 32933)
+[2025-11-02 23:07:30] INFO: Application closed: Image (png_img.png) (ran for 24.8s)
+[2025-11-02 23:07:30] ERROR: Error monitoring process: 32933
+
+================================================================================
+SESSION SEPARATOR - Started: 2025-11-03 00:20:44
+================================================================================
+
+[2025-11-03 00:20:48] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:20:48] INFO: Security policy: standard
+[2025-11-03 00:20:48] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:20:48] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-03 00:20:48] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 00:20:48] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:20:48] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 40091) in standard sandbox
+[2025-11-03 00:20:54] INFO: Application closed: PDF (pdf_file.pdf) (ran for 6.4s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 00:50:07
+================================================================================
+
+
+================================================================================
+SESSION STARTED: 2025-11-03 00:50:15
+================================================================================
+
+[2025-11-03 00:50:15] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/png_img.png
+[2025-11-03 00:50:15] INFO: Security policy: standard
+[2025-11-03 00:50:15] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/png_img.png
+[2025-11-03 00:50:15] INFO: Application: Image (png_img.png)
+[2025-11-03 00:50:15] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 00:50:15] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/png_img.png
+[2025-11-03 00:50:15] SUCCESS: Successfully launched Image (png_img.png) (PID: 44479) in standard sandbox
+[2025-11-03 00:50:15] INFO: Detected external sandbox: Image (png_img.png) (PID: 44479)
+[2025-11-03 00:50:23] INFO: Sent shutdown to Image (png_img.png) (PID: 44479)
+[2025-11-03 00:50:24] INFO: Sent SIGKILL to Image (png_img.png) (PID: 44479)
+
+================================================================================
+SESSION STARTED: 2025-11-03 00:50:46
+================================================================================
+
+[2025-11-03 00:50:46] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-03 00:50:46] INFO: Security policy: standard
+[2025-11-03 00:50:46] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-03 00:50:46] INFO: Application: File (zip_file.zip)
+[2025-11-03 00:50:46] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 00:50:46] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-03 00:50:46] SUCCESS: Successfully launched File (zip_file.zip) (PID: 44650) in standard sandbox
+[2025-11-03 00:50:48] INFO: Detected external sandbox: File (zip_file.zip) (PID: 44650)
+[2025-11-03 00:50:52] INFO: Sent shutdown to File (zip_file.zip) (PID: 44650)
+[2025-11-03 00:50:53] INFO: Sent SIGKILL to File (zip_file.zip) (PID: 44650)
+
+================================================================================
+SESSION STARTED: 2025-11-03 00:51:07
+================================================================================
+
+[2025-11-03 00:51:07] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:51:07] INFO: Security policy: restrictive
+[2025-11-03 00:51:07] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:51:07] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-03 00:51:07] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 00:51:07] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:51:07] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 44748) in restrictive sandbox
+[2025-11-03 00:51:07] INFO: Detected external sandbox: PDF (pdf_file.pdf) (PID: 44748)
+[2025-11-03 00:51:12] INFO: Sent shutdown to PDF (pdf_file.pdf) (PID: 44748)
+[2025-11-03 00:51:13] INFO: Sent SIGKILL to PDF (pdf_file.pdf) (PID: 44748)
+
+================================================================================
+SESSION STARTED: 2025-11-03 00:56:38
+================================================================================
+
+[2025-11-03 00:56:55] INFO: Preparing to launch: /home/rachitsharma/Downloads/Ce-2.jpeg
+[2025-11-03 00:56:55] INFO: Security policy: restrictive
+[2025-11-03 00:56:55] INFO: Resolved path: /home/rachitsharma/Downloads/Ce-2.jpeg
+[2025-11-03 00:56:55] INFO: Application: Image (Ce-2.jpeg)
+[2025-11-03 00:56:55] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 00:56:55] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Downloads/Ce-2.jpeg
+[2025-11-03 00:56:55] ERROR: Failed to launch: 'Logger' object has no attribute 'success'
+[2025-11-03 00:57:23] INFO: Cleaning up dead process: 45835
+[2025-11-03 00:57:35] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:57:35] INFO: Security policy: restrictive
+[2025-11-03 00:57:35] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:57:35] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-03 00:57:35] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 00:57:35] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 00:57:35] ERROR: Failed to launch: 'Logger' object has no attribute 'success'
+[2025-11-03 00:58:07] INFO: Cleaning up dead process: 45929
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:18:58
+================================================================================
+
+[2025-11-03 01:19:16] INFO: Preparing to launch: spotify
+[2025-11-03 01:19:16] INFO: Security policy: standard
+[2025-11-03 01:19:16] INFO: Resolved path: spotify
+[2025-11-03 01:19:16] INFO: Application: Spotify
+[2025-11-03 01:19:16] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:19:16] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo spotify
+[2025-11-03 01:19:16] SUCCESS: Successfully launched Spotify (PID: 47276) in standard sandbox
+[2025-11-03 01:19:16] INFO: Application closed: Spotify (ran for 0.1s)
+[2025-11-03 01:19:30] INFO: Preparing to launch: spotify
+[2025-11-03 01:19:30] INFO: Security policy: permissive
+[2025-11-03 01:19:30] INFO: Resolved path: spotify
+[2025-11-03 01:19:30] INFO: Application: Spotify
+[2025-11-03 01:19:30] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:19:30] INFO: Command: firejail --dbus-user=none --dbus-system=none spotify
+[2025-11-03 01:19:30] SUCCESS: Successfully launched Spotify (PID: 47340) in permissive sandbox
+[2025-11-03 01:19:30] INFO: Application closed: Spotify (ran for 0.1s)
+[2025-11-03 01:19:38] INFO: Preparing to launch: obsidian
+[2025-11-03 01:19:38] INFO: Security policy: permissive
+[2025-11-03 01:19:38] INFO: Resolved path: obsidian
+[2025-11-03 01:19:38] INFO: Application: Obsidian
+[2025-11-03 01:19:38] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:19:38] INFO: Command: firejail --dbus-user=none --dbus-system=none obsidian
+[2025-11-03 01:19:38] SUCCESS: Successfully launched Obsidian (PID: 47401) in permissive sandbox
+[2025-11-03 01:19:50] INFO: Sent shutdown to Obsidian (PID: 47401)
+[2025-11-03 01:19:51] INFO: Sent SIGKILL to Obsidian (PID: 47401)
+[2025-11-03 01:19:51] INFO: Application closed: Obsidian (ran for 13.0s)
+[2025-11-03 01:19:51] ERROR: Error monitoring process: 47401
+[2025-11-03 01:20:02] INFO: Preparing to launch: lowriter
+[2025-11-03 01:20:02] INFO: Security policy: permissive
+[2025-11-03 01:20:02] INFO: Resolved path: lowriter
+[2025-11-03 01:20:02] INFO: Application: Lowriter
+[2025-11-03 01:20:02] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:20:02] INFO: Command: firejail --dbus-user=filter --dbus-system=none lowriter
+[2025-11-03 01:20:02] SUCCESS: Successfully launched Lowriter (PID: 47609) in permissive sandbox
+[2025-11-03 01:20:14] INFO: Sent shutdown to Lowriter (PID: 47609)
+[2025-11-03 01:20:14] INFO: Sent SIGKILL to Lowriter (PID: 47609)
+[2025-11-03 01:20:49] INFO: Preparing to launch: sensible-browser
+[2025-11-03 01:20:49] INFO: Security policy: permissive
+[2025-11-03 01:20:49] INFO: Resolved path: sensible-browser
+[2025-11-03 01:20:49] INFO: Application: Sensible-browser
+[2025-11-03 01:20:49] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:20:49] INFO: Command: firejail --dbus-user=none --dbus-system=none sensible-browser
+[2025-11-03 01:20:49] SUCCESS: Successfully launched Sensible-browser (PID: 47839) in permissive sandbox
+[2025-11-03 01:20:49] INFO: Application closed: Sensible-browser (ran for 0.1s)
+[2025-11-03 01:21:25] INFO: Preparing to launch: popsicle-gtk
+[2025-11-03 01:21:25] INFO: Security policy: restrictive
+[2025-11-03 01:21:25] INFO: Resolved path: popsicle-gtk
+[2025-11-03 01:21:25] INFO: Application: Popsicle-gtk
+[2025-11-03 01:21:25] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:21:25] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo popsicle-gtk
+[2025-11-03 01:21:25] SUCCESS: Successfully launched Popsicle-gtk (PID: 47942) in restrictive sandbox
+[2025-11-03 01:21:34] INFO: Application closed: Popsicle-gtk (ran for 8.7s)
+[2025-11-03 01:21:42] INFO: Preparing to launch: spotify
+[2025-11-03 01:21:42] INFO: Security policy: restrictive
+[2025-11-03 01:21:42] INFO: Resolved path: spotify
+[2025-11-03 01:21:42] INFO: Application: Spotify
+[2025-11-03 01:21:42] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:21:42] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo spotify
+[2025-11-03 01:21:42] SUCCESS: Successfully launched Spotify (PID: 47986) in restrictive sandbox
+[2025-11-03 01:21:42] INFO: Application closed: Spotify (ran for 0.1s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:24:11
+================================================================================
+
+[2025-11-03 01:24:18] INFO: Preparing to launch: superproductivity
+[2025-11-03 01:24:18] INFO: Security policy: standard
+[2025-11-03 01:24:18] INFO: Resolved path: superproductivity
+[2025-11-03 01:24:18] INFO: Application: Superproductivity
+[2025-11-03 01:24:18] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:24:18] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo superproductivity
+[2025-11-03 01:24:18] SUCCESS: Successfully launched Superproductivity (PID: 48180) in standard sandbox
+[2025-11-03 01:24:18] INFO: Application closed: Superproductivity (ran for 0.1s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:28:11
+================================================================================
+
+[2025-11-03 01:28:23] INFO: Preparing to launch: spotify
+[2025-11-03 01:28:23] INFO: Security policy: standard
+[2025-11-03 01:28:23] INFO: Resolved path: spotify
+[2025-11-03 01:28:23] INFO: Application: Spotify
+[2025-11-03 01:28:23] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:28:23] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo spotify
+[2025-11-03 01:28:23] SUCCESS: Successfully launched Spotify (PID: 48463) in standard sandbox
+[2025-11-03 01:28:23] INFO: Application closed: Spotify (ran for 0.1s)
+[2025-11-03 01:28:31] INFO: Preparing to launch: spotify
+[2025-11-03 01:28:31] INFO: Security policy: standard
+[2025-11-03 01:28:31] INFO: Resolved path: spotify
+[2025-11-03 01:28:31] INFO: Application: Spotify
+[2025-11-03 01:28:31] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:28:31] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo spotify
+[2025-11-03 01:28:31] SUCCESS: Successfully launched Spotify (PID: 48554) in standard sandbox
+[2025-11-03 01:28:31] INFO: Application closed: Spotify (ran for 0.1s)
+[2025-11-03 01:28:42] INFO: Preparing to launch: superproductivity
+[2025-11-03 01:28:42] INFO: Security policy: standard
+[2025-11-03 01:28:42] INFO: Resolved path: superproductivity
+[2025-11-03 01:28:42] INFO: Application: Superproductivity
+[2025-11-03 01:28:42] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:28:42] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo superproductivity
+[2025-11-03 01:28:42] SUCCESS: Successfully launched Superproductivity (PID: 48614) in standard sandbox
+[2025-11-03 01:28:42] INFO: Application closed: Superproductivity (ran for 0.1s)
+[2025-11-03 01:28:52] INFO: Preparing to launch: superproductivity
+[2025-11-03 01:28:52] INFO: Security policy: restrictive
+[2025-11-03 01:28:52] INFO: Resolved path: superproductivity
+[2025-11-03 01:28:52] INFO: Application: Superproductivity
+[2025-11-03 01:28:52] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:28:52] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo superproductivity
+[2025-11-03 01:28:52] SUCCESS: Successfully launched Superproductivity (PID: 48639) in restrictive sandbox
+[2025-11-03 01:28:52] INFO: Application closed: Superproductivity (ran for 0.1s)
+[2025-11-03 01:29:24] INFO: Preparing to launch: run-kali.sh
+[2025-11-03 01:29:24] INFO: Security policy: restrictive
+[2025-11-03 01:29:24] INFO: Resolved path: run-kali.sh
+[2025-11-03 01:29:24] ERROR: Path not found: run-kali.sh
+[2025-11-03 01:29:41] INFO: Preparing to launch: gnome-calculator
+[2025-11-03 01:29:41] INFO: Security policy: restrictive
+[2025-11-03 01:29:41] INFO: Resolved path: gnome-calculator
+[2025-11-03 01:29:41] INFO: Application: Gnome-calculator
+[2025-11-03 01:29:41] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:29:41] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo gnome-calculator
+[2025-11-03 01:29:41] SUCCESS: Successfully launched Gnome-calculator (PID: 48739) in restrictive sandbox
+[2025-11-03 01:29:48] INFO: Sent shutdown to Gnome-calculator (PID: 48739)
+[2025-11-03 01:29:49] INFO: Sent SIGKILL to Gnome-calculator (PID: 48739)
+[2025-11-03 01:29:49] INFO: Application closed: Gnome-calculator (ran for 7.5s)
+[2025-11-03 01:29:49] ERROR: Error monitoring process: 48739
+[2025-11-03 01:30:01] INFO: Preparing to launch: vlc
+[2025-11-03 01:30:01] INFO: Security policy: restrictive
+[2025-11-03 01:30:01] INFO: Resolved path: vlc
+[2025-11-03 01:30:01] INFO: Application: Vlc
+[2025-11-03 01:30:01] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:30:01] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo vlc
+[2025-11-03 01:30:01] SUCCESS: Successfully launched Vlc (PID: 48838) in restrictive sandbox
+[2025-11-03 01:30:06] INFO: Application closed: Vlc (ran for 5.5s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:32:49
+================================================================================
+
+[2025-11-03 01:32:57] INFO: Preparing to launch: spotify
+[2025-11-03 01:32:57] INFO: Security policy: permissive
+[2025-11-03 01:32:57] INFO: Resolved path: spotify
+[2025-11-03 01:32:57] INFO: Application: Spotify
+[2025-11-03 01:32:57] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:32:57] INFO: Command: firejail --dbus-user=none --dbus-system=none spotify
+[2025-11-03 01:32:57] SUCCESS: Successfully launched Spotify (PID: 49134) in permissive sandbox
+[2025-11-03 01:32:57] INFO: Application closed: Spotify (ran for 0.1s)
+[2025-11-03 01:33:03] INFO: Preparing to launch: spotify
+[2025-11-03 01:33:03] INFO: Security policy: permissive
+[2025-11-03 01:33:03] INFO: Resolved path: spotify
+[2025-11-03 01:33:03] INFO: Application: Spotify
+[2025-11-03 01:33:03] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:33:03] INFO: Command: firejail --dbus-user=none --dbus-system=none spotify
+[2025-11-03 01:33:03] SUCCESS: Successfully launched Spotify (PID: 49230) in permissive sandbox
+[2025-11-03 01:33:03] INFO: Application closed: Spotify (ran for 0.1s)
+[2025-11-03 01:33:12] INFO: Preparing to launch: superproductivity
+[2025-11-03 01:33:12] INFO: Security policy: permissive
+[2025-11-03 01:33:12] INFO: Resolved path: superproductivity
+[2025-11-03 01:33:12] INFO: Application: Superproductivity
+[2025-11-03 01:33:12] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:33:12] INFO: Command: firejail --dbus-user=none --dbus-system=none superproductivity
+[2025-11-03 01:33:12] SUCCESS: Successfully launched Superproductivity (PID: 49293) in permissive sandbox
+[2025-11-03 01:33:12] INFO: Application closed: Superproductivity (ran for 0.1s)
+[2025-11-03 01:33:24] INFO: Preparing to launch: zenity
+[2025-11-03 01:33:24] INFO: Security policy: permissive
+[2025-11-03 01:33:24] INFO: Resolved path: zenity
+[2025-11-03 01:33:24] INFO: Application: Zenity
+[2025-11-03 01:33:24] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:33:24] INFO: Command: firejail --dbus-user=none --dbus-system=none zenity
+[2025-11-03 01:33:24] SUCCESS: Successfully launched Zenity (PID: 49319) in permissive sandbox
+[2025-11-03 01:33:24] INFO: Application closed: Zenity (ran for 0.1s)
+[2025-11-03 01:33:42] INFO: Preparing to launch: gnome-power-statistics
+[2025-11-03 01:33:42] INFO: Security policy: permissive
+[2025-11-03 01:33:42] INFO: Resolved path: gnome-power-statistics
+[2025-11-03 01:33:42] INFO: Application: Gnome-power-statistics
+[2025-11-03 01:33:42] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:33:42] INFO: Command: firejail --dbus-user=none --dbus-system=none gnome-power-statistics
+[2025-11-03 01:33:42] SUCCESS: Successfully launched Gnome-power-statistics (PID: 49435) in permissive sandbox
+[2025-11-03 01:33:43] INFO: Application closed: Gnome-power-statistics (ran for 0.2s)
+[2025-11-03 01:33:56] INFO: Preparing to launch: nautilus
+[2025-11-03 01:33:56] INFO: Security policy: permissive
+[2025-11-03 01:33:56] INFO: Resolved path: nautilus
+[2025-11-03 01:33:56] INFO: Application: Nautilus
+[2025-11-03 01:33:56] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:33:56] INFO: Command: firejail --dbus-user=filter --dbus-system=none nautilus
+[2025-11-03 01:33:56] SUCCESS: Successfully launched Nautilus (PID: 49470) in permissive sandbox
+[2025-11-03 01:33:56] INFO: Application closed: Nautilus (ran for 0.1s)
+[2025-11-03 01:34:08] INFO: Preparing to launch: lowriter
+[2025-11-03 01:34:08] INFO: Security policy: permissive
+[2025-11-03 01:34:08] INFO: Resolved path: lowriter
+[2025-11-03 01:34:08] INFO: Application: Lowriter
+[2025-11-03 01:34:08] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:34:08] INFO: Command: firejail --dbus-user=filter --dbus-system=none lowriter
+[2025-11-03 01:34:08] SUCCESS: Successfully launched Lowriter (PID: 49508) in permissive sandbox
+[2025-11-03 01:34:16] INFO: Application closed: Lowriter (ran for 8.2s)
+[2025-11-03 01:34:23] INFO: Preparing to launch: xcalc
+[2025-11-03 01:34:23] INFO: Security policy: permissive
+[2025-11-03 01:34:23] INFO: Resolved path: xcalc
+[2025-11-03 01:34:23] INFO: Application: Xcalc
+[2025-11-03 01:34:23] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:34:23] INFO: Command: firejail --dbus-user=filter --dbus-system=none xcalc
+[2025-11-03 01:34:23] SUCCESS: Successfully launched Xcalc (PID: 49658) in permissive sandbox
+[2025-11-03 01:34:33] INFO: Preparing to launch: aria2c
+[2025-11-03 01:34:33] INFO: Security policy: permissive
+[2025-11-03 01:34:33] INFO: Resolved path: aria2c
+[2025-11-03 01:34:33] INFO: Application: Aria2c
+[2025-11-03 01:34:33] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:34:33] INFO: Command: firejail --dbus-user=none --dbus-system=none aria2c
+[2025-11-03 01:34:33] SUCCESS: Successfully launched Aria2c (PID: 49690) in permissive sandbox
+[2025-11-03 01:34:33] INFO: Application closed: Aria2c (ran for 0.1s)
+[2025-11-03 01:34:40] INFO: Application closed: Xcalc (ran for 16.7s)
+[2025-11-03 01:34:54] INFO: Preparing to launch: gedit
+[2025-11-03 01:34:54] INFO: Security policy: permissive
+[2025-11-03 01:34:54] INFO: Resolved path: gedit
+[2025-11-03 01:34:54] INFO: Application: Gedit
+[2025-11-03 01:34:54] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:34:54] INFO: Command: firejail --dbus-user=filter --dbus-system=none gedit
+[2025-11-03 01:34:54] SUCCESS: Successfully launched Gedit (PID: 49776) in permissive sandbox
+[2025-11-03 01:34:54] INFO: Application closed: Gedit (ran for 0.1s)
+[2025-11-03 01:35:11] INFO: Preparing to launch: flatpak run org.kde.okular
+[2025-11-03 01:35:11] INFO: Security policy: permissive
+[2025-11-03 01:35:11] INFO: Resolved path: flatpak run org.kde.okular
+[2025-11-03 01:35:11] ERROR: Path not found: flatpak run org.kde.okular
+[2025-11-03 01:35:28] INFO: Preparing to launch: flatpak run org.kde.okular
+[2025-11-03 01:35:28] INFO: Security policy: permissive
+[2025-11-03 01:35:28] INFO: Resolved path: flatpak run org.kde.okular
+[2025-11-03 01:35:28] ERROR: Path not found: flatpak run org.kde.okular
+[2025-11-03 01:35:32] INFO: Preparing to launch: flatpak run org.kde.okular
+[2025-11-03 01:35:32] INFO: Security policy: restrictive
+[2025-11-03 01:35:32] INFO: Resolved path: flatpak run org.kde.okular
+[2025-11-03 01:35:32] ERROR: Path not found: flatpak run org.kde.okular
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:37:28
+================================================================================
+
+[2025-11-03 01:41:09] INFO: Preparing to launch: firefox
+[2025-11-03 01:41:09] INFO: Security policy: restrictive
+[2025-11-03 01:41:09] INFO: Resolved path: firefox
+[2025-11-03 01:41:09] INFO: Application: Firefox
+[2025-11-03 01:41:09] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:41:09] INFO: Created Firefox profile: invisvm-2331fad3
+[2025-11-03 01:41:09] INFO: Firefox: Using unique profile invisvm-2331fad3
+[2025-11-03 01:41:09] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-2331fad3 --new-instance --no-remote
+[2025-11-03 01:41:09] SUCCESS: Successfully launched Firefox (PID: 50319) in restrictive sandbox
+[2025-11-03 01:41:21] INFO: Sent shutdown to Firefox (PID: 50319)
+[2025-11-03 01:41:21] INFO: Sent SIGKILL to Firefox (PID: 50319)
+[2025-11-03 01:41:49] INFO: Preparing to launch: flatpak run org.kde.okular
+[2025-11-03 01:41:49] INFO: Security policy: permissive
+[2025-11-03 01:41:49] INFO: Resolved path: flatpak run org.kde.okular
+[2025-11-03 01:41:49] ERROR: Path not found: flatpak run org.kde.okular
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:45:52
+================================================================================
+
+[2025-11-03 01:45:59] INFO: Preparing to launch: file-roller
+[2025-11-03 01:45:59] INFO: Security policy: restrictive
+[2025-11-03 01:45:59] INFO: Resolved path: file-roller
+[2025-11-03 01:45:59] INFO: Application: File-roller
+[2025-11-03 01:45:59] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:45:59] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo file-roller
+[2025-11-03 01:45:59] SUCCESS: Successfully launched File-roller (PID: 51453) in restrictive sandbox
+[2025-11-03 01:46:05] INFO: Preparing to launch: eog
+[2025-11-03 01:46:05] INFO: Security policy: restrictive
+[2025-11-03 01:46:05] INFO: Resolved path: eog
+[2025-11-03 01:46:05] INFO: Application: Eog
+[2025-11-03 01:46:05] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:46:05] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo eog
+[2025-11-03 01:46:05] SUCCESS: Successfully launched Eog (PID: 51583) in restrictive sandbox
+[2025-11-03 01:46:10] INFO: Preparing to launch: code
+[2025-11-03 01:46:10] INFO: Security policy: restrictive
+[2025-11-03 01:46:10] INFO: Resolved path: code
+[2025-11-03 01:46:10] INFO: Application: Code
+[2025-11-03 01:46:10] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:46:10] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo code
+[2025-11-03 01:46:10] SUCCESS: Successfully launched Code (PID: 51634) in restrictive sandbox
+[2025-11-03 01:46:12] INFO: Application closed: Code (ran for 2.5s)
+[2025-11-03 01:46:33] INFO: Sent shutdown to File-roller (PID: 51453)
+[2025-11-03 01:46:34] INFO: Sent SIGKILL to File-roller (PID: 51453)
+[2025-11-03 01:46:38] INFO: Sent shutdown to Eog (PID: 51583)
+[2025-11-03 01:46:38] INFO: Sent SIGKILL to Eog (PID: 51583)
+[2025-11-03 01:46:38] INFO: Application closed: Eog (ran for 33.3s)
+[2025-11-03 01:46:38] ERROR: Error monitoring process: 51583
+[2025-11-03 01:46:43] INFO: Preparing to launch: vlc
+[2025-11-03 01:46:43] INFO: Security policy: restrictive
+[2025-11-03 01:46:43] INFO: Resolved path: vlc
+[2025-11-03 01:46:43] INFO: Application: Vlc
+[2025-11-03 01:46:43] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:46:43] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo vlc
+[2025-11-03 01:46:43] SUCCESS: Successfully launched Vlc (PID: 51853) in restrictive sandbox
+[2025-11-03 01:46:49] INFO: Preparing to launch: libreoffice --calc
+[2025-11-03 01:46:49] INFO: Security policy: restrictive
+[2025-11-03 01:46:49] INFO: Resolved path: libreoffice --calc
+[2025-11-03 01:46:49] ERROR: Path not found: libreoffice --calc
+[2025-11-03 01:46:52] INFO: Preparing to launch: libreoffice --writer
+[2025-11-03 01:46:52] INFO: Security policy: restrictive
+[2025-11-03 01:46:52] INFO: Resolved path: libreoffice --writer
+[2025-11-03 01:46:52] ERROR: Path not found: libreoffice --writer
+[2025-11-03 01:46:55] INFO: Preparing to launch: firefox
+[2025-11-03 01:46:55] INFO: Security policy: restrictive
+[2025-11-03 01:46:55] INFO: Resolved path: firefox
+[2025-11-03 01:46:55] INFO: Application: Firefox
+[2025-11-03 01:46:55] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:46:55] INFO: Created Firefox profile: invisvm-0aa9fad3
+[2025-11-03 01:46:55] INFO: Firefox: Using unique profile invisvm-0aa9fad3
+[2025-11-03 01:46:55] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-0aa9fad3 --new-instance --no-remote
+[2025-11-03 01:46:55] SUCCESS: Successfully launched Firefox (PID: 51913) in restrictive sandbox
+[2025-11-03 01:46:58] INFO: Application closed: Firefox (ran for 3.6s)
+[2025-11-03 01:47:05] INFO: Sent shutdown to Vlc (PID: 51853)
+[2025-11-03 01:47:06] INFO: Sent SIGKILL to Vlc (PID: 51853)
+
+================================================================================
+SESSION STARTED: 2025-11-03 01:55:05
+================================================================================
+
+[2025-11-03 01:55:09] INFO: Preparing to launch: libreoffice --writer
+[2025-11-03 01:55:09] INFO: Security policy: restrictive
+[2025-11-03 01:55:09] INFO: Resolved path: libreoffice --writer
+[2025-11-03 01:55:09] ERROR: Path not found: libreoffice --writer
+[2025-11-03 01:55:12] INFO: Preparing to launch: libreoffice --calc
+[2025-11-03 01:55:12] INFO: Security policy: restrictive
+[2025-11-03 01:55:12] INFO: Resolved path: libreoffice --calc
+[2025-11-03 01:55:12] ERROR: Path not found: libreoffice --calc
+[2025-11-03 01:55:36] INFO: Preparing to launch: nomacs
+[2025-11-03 01:55:36] INFO: Security policy: restrictive
+[2025-11-03 01:55:36] INFO: Resolved path: nomacs
+[2025-11-03 01:55:36] INFO: Application: Nomacs
+[2025-11-03 01:55:36] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 01:55:36] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo nomacs
+[2025-11-03 01:55:36] SUCCESS: Successfully launched Nomacs (PID: 52884) in restrictive sandbox
+[2025-11-03 01:55:43] INFO: Application closed: Nomacs (ran for 7.6s)
+[2025-11-03 01:55:48] INFO: Preparing to launch: code
+[2025-11-03 01:55:48] INFO: Security policy: restrictive
+[2025-11-03 01:55:48] INFO: Resolved path: code
+[2025-11-03 01:55:48] INFO: Application: Code
+[2025-11-03 01:55:48] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 01:55:48] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo code
+[2025-11-03 01:55:48] SUCCESS: Successfully launched Code (PID: 52950) in restrictive sandbox
+[2025-11-03 01:55:50] INFO: Application closed: Code (ran for 2.0s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 02:01:35
+================================================================================
+
+[2025-11-03 02:01:53] INFO: Preparing to launch: firefox
+[2025-11-03 02:01:53] INFO: Security policy: restrictive
+[2025-11-03 02:01:53] INFO: Resolved path: firefox
+[2025-11-03 02:01:53] INFO: Application: Firefox
+[2025-11-03 02:01:53] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 02:01:53] INFO: Created Firefox profile: invisvm-43306a8b
+[2025-11-03 02:01:53] INFO: Firefox: Using unique profile invisvm-43306a8b
+[2025-11-03 02:01:53] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-43306a8b --new-instance --no-remote
+[2025-11-03 02:01:53] SUCCESS: Successfully launched Firefox (PID: 54157) in restrictive sandbox
+[2025-11-03 02:02:10] INFO: Sent shutdown to Firefox (PID: 54157)
+[2025-11-03 02:02:11] INFO: Sent SIGKILL to Firefox (PID: 54157)
+[2025-11-03 02:02:11] INFO: Application closed: Firefox (ran for 17.8s)
+[2025-11-03 02:02:11] ERROR: Error monitoring process: 54157
+[2025-11-03 02:02:21] INFO: Preparing to launch: firefox
+[2025-11-03 02:02:21] INFO: Security policy: permissive
+[2025-11-03 02:02:21] INFO: Resolved path: firefox
+[2025-11-03 02:02:21] INFO: Application: Firefox
+[2025-11-03 02:02:21] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 02:02:21] INFO: Created Firefox profile: invisvm-7c2f9609
+[2025-11-03 02:02:21] INFO: Firefox: Using unique profile invisvm-7c2f9609
+[2025-11-03 02:02:21] INFO: Command: firejail --dbus-user=none --dbus-system=none firefox -P invisvm-7c2f9609 --new-instance --no-remote
+[2025-11-03 02:02:21] SUCCESS: Successfully launched Firefox (PID: 54684) in permissive sandbox
+[2025-11-03 02:02:34] INFO: Application closed: Firefox (ran for 13.7s)
+[2025-11-03 02:02:37] INFO: Preparing to launch: firefox
+[2025-11-03 02:02:37] INFO: Security policy: restrictive
+[2025-11-03 02:02:37] INFO: Resolved path: firefox
+[2025-11-03 02:02:37] INFO: Application: Firefox
+[2025-11-03 02:02:37] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 02:02:37] INFO: Created Firefox profile: invisvm-4cfe5df8
+[2025-11-03 02:02:37] INFO: Firefox: Using unique profile invisvm-4cfe5df8
+[2025-11-03 02:02:37] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-4cfe5df8 --new-instance --no-remote
+[2025-11-03 02:02:37] SUCCESS: Successfully launched Firefox (PID: 55249) in restrictive sandbox
+[2025-11-03 02:02:54] INFO: Sent shutdown to Firefox (PID: 55249)
+[2025-11-03 02:02:54] INFO: Sent SIGKILL to Firefox (PID: 55249)
+[2025-11-03 02:02:54] INFO: Application closed: Firefox (ran for 17.5s)
+[2025-11-03 02:02:54] ERROR: Error monitoring process: 55249
+[2025-11-03 02:03:00] INFO: Preparing to launch: file-roller
+[2025-11-03 02:03:00] INFO: Security policy: restrictive
+[2025-11-03 02:03:00] INFO: Resolved path: file-roller
+[2025-11-03 02:03:00] INFO: Application: File-roller
+[2025-11-03 02:03:00] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 02:03:00] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo file-roller
+[2025-11-03 02:03:00] SUCCESS: Successfully launched File-roller (PID: 55760) in restrictive sandbox
+[2025-11-03 02:03:04] INFO: Preparing to launch: nomacs
+[2025-11-03 02:03:04] INFO: Security policy: restrictive
+[2025-11-03 02:03:04] INFO: Resolved path: nomacs
+[2025-11-03 02:03:04] INFO: Application: Nomacs
+[2025-11-03 02:03:04] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 02:03:04] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo nomacs
+[2025-11-03 02:03:04] SUCCESS: Successfully launched Nomacs (PID: 55890) in restrictive sandbox
+[2025-11-03 02:03:12] INFO: Preparing to launch: vlc
+[2025-11-03 02:03:12] INFO: Security policy: restrictive
+[2025-11-03 02:03:12] INFO: Resolved path: vlc
+[2025-11-03 02:03:12] INFO: Application: Vlc
+[2025-11-03 02:03:12] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 02:03:12] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo vlc
+[2025-11-03 02:03:12] SUCCESS: Successfully launched Vlc (PID: 55952) in restrictive sandbox
+[2025-11-03 02:03:51] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 02:03:51] INFO: Security policy: restrictive
+[2025-11-03 02:03:51] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 02:03:51] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-03 02:03:51] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 02:03:51] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 02:03:51] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 56038) in restrictive sandbox
+[2025-11-03 02:04:11] INFO: Application closed: PDF (pdf_file.pdf) (ran for 20.3s)
+[2025-11-03 02:05:23] INFO: Sent shutdown to File-roller (PID: 55760)
+[2025-11-03 02:05:24] INFO: Sent SIGKILL to File-roller (PID: 55760)
+[2025-11-03 02:05:24] INFO: Application closed: File-roller (ran for 144.2s)
+[2025-11-03 02:05:24] ERROR: Error monitoring process: 55760
+[2025-11-03 02:05:24] INFO: Sent shutdown to Nomacs (PID: 55890)
+[2025-11-03 02:05:24] INFO: Sent SIGKILL to Nomacs (PID: 55890)
+[2025-11-03 02:05:24] INFO: Application closed: Nomacs (ran for 140.0s)
+[2025-11-03 02:05:24] ERROR: Error monitoring process: 55890
+[2025-11-03 02:05:24] INFO: Sent shutdown to Vlc (PID: 55952)
+[2025-11-03 02:05:25] INFO: Sent SIGKILL to Vlc (PID: 55952)
+[2025-11-03 02:05:25] INFO: Application closed: Vlc (ran for 132.5s)
+[2025-11-03 02:05:25] ERROR: Error monitoring process: 55952
+
+================================================================================
+SESSION STARTED: 2025-11-03 02:19:31
+================================================================================
+
+
+================================================================================
+SESSION STARTED: 2025-11-03 02:19:40
+================================================================================
+
+
+================================================================================
+SESSION STARTED: 2025-11-03 02:22:55
+================================================================================
+
+
+================================================================================
+SESSION STARTED: 2025-11-03 03:37:28
+================================================================================
+
+
+================================================================================
+SESSION STARTED: 2025-11-03 08:54:01
+================================================================================
+
+[2025-11-03 08:54:14] INFO: Preparing to launch: firefox
+[2025-11-03 08:54:14] INFO: Security policy: restrictive
+[2025-11-03 08:54:14] INFO: Resolved path: firefox
+[2025-11-03 08:54:14] INFO: Application: Firefox
+[2025-11-03 08:54:14] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 08:54:14] INFO: Created Firefox profile: invisvm-6730c6c2
+[2025-11-03 08:54:14] INFO: Firefox: Using unique profile invisvm-6730c6c2
+[2025-11-03 08:54:14] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-6730c6c2 --new-instance --no-remote
+[2025-11-03 08:54:14] SUCCESS: Successfully launched Firefox (PID: 66615) in restrictive sandbox
+[2025-11-03 08:54:38] INFO: Preparing to launch: firefox
+[2025-11-03 08:54:38] INFO: Security policy: standard
+[2025-11-03 08:54:38] INFO: Resolved path: firefox
+[2025-11-03 08:54:38] INFO: Application: Firefox
+[2025-11-03 08:54:38] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 08:54:38] INFO: Created Firefox profile: invisvm-862a37aa
+[2025-11-03 08:54:38] INFO: Firefox: Using unique profile invisvm-862a37aa
+[2025-11-03 08:54:38] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo firefox -P invisvm-862a37aa --new-instance --no-remote
+[2025-11-03 08:54:38] SUCCESS: Successfully launched Firefox (PID: 67134) in standard sandbox
+[2025-11-03 08:54:44] INFO: Preparing to launch: firefox
+[2025-11-03 08:54:44] INFO: Security policy: standard
+[2025-11-03 08:54:44] INFO: Resolved path: firefox
+[2025-11-03 08:54:44] INFO: Application: Firefox
+[2025-11-03 08:54:44] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 08:54:44] INFO: Created Firefox profile: invisvm-83ee7297
+[2025-11-03 08:54:44] INFO: Firefox: Using unique profile invisvm-83ee7297
+[2025-11-03 08:54:44] INFO: Command: firejail --dbus-user=none --dbus-system=none --nosound --novideo firefox -P invisvm-83ee7297 --new-instance --no-remote
+[2025-11-03 08:54:44] SUCCESS: Successfully launched Firefox (PID: 67290) in standard sandbox
+[2025-11-03 08:54:47] INFO: Application closed: Firefox (ran for 9.6s)
+[2025-11-03 08:54:57] INFO: Application closed: Firefox (ran for 12.4s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 08:55:24
+================================================================================
+
+[2025-11-03 08:55:24] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 08:55:24] INFO: Security policy: permissive
+[2025-11-03 08:55:24] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 08:55:24] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-03 08:55:24] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 08:55:24] INFO: Command: firejail --dbus-user=none --dbus-system=none xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 08:55:24] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 67753) in permissive sandbox
+[2025-11-03 08:55:26] INFO: Detected external sandbox: PDF (pdf_file.pdf) (PID: 67753)
+
+================================================================================
+SESSION STARTED: 2025-11-03 08:55:29
+================================================================================
+
+[2025-11-03 08:55:34] INFO: Detected untracked firejail: Firejail (PID: 67852)
+[2025-11-03 08:55:34] INFO: Application closed: Process 67850 (ran for 0.0s)
+[2025-11-03 08:55:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:36] INFO: Detected untracked firejail: Sandboxed Application (PID: 67873)
+[2025-11-03 08:55:36] INFO: Application closed: Process 67872 (ran for 0.0s)
+[2025-11-03 08:55:36] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:55:38] INFO: Application closed: Process 67898 (ran for 0.0s)
+[2025-11-03 08:55:38] INFO: Application closed: Process 67899 (ran for 0.0s)
+[2025-11-03 08:55:40] INFO: Detected untracked firejail: Firejail (PID: 67909)
+[2025-11-03 08:55:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:42] INFO: Detected untracked firejail: Firejail (PID: 67927)
+[2025-11-03 08:55:42] INFO: Application closed: Process 67925 (ran for 0.0s)
+[2025-11-03 08:55:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:44] INFO: Detected untracked firejail: Firejail (PID: 67933)
+[2025-11-03 08:55:44] INFO: Application closed: Process 67931 (ran for 0.0s)
+[2025-11-03 08:55:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:46] INFO: Detected untracked firejail: Firejail (PID: 67941)
+[2025-11-03 08:55:46] INFO: Application closed: Process 67939 (ran for 0.0s)
+[2025-11-03 08:55:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:48] INFO: Detected untracked firejail: Firejail (PID: 67953)
+[2025-11-03 08:55:48] INFO: Application closed: Process 67951 (ran for 0.0s)
+[2025-11-03 08:55:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:50] INFO: Detected untracked firejail: Firejail (PID: 67964)
+[2025-11-03 08:55:50] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:55:50] INFO: Application closed: Process 67962 (ran for 0.0s)
+[2025-11-03 08:55:52] INFO: Detected untracked firejail: Firejail (PID: 67971)
+[2025-11-03 08:55:52] INFO: Application closed: Process 67969 (ran for 0.0s)
+[2025-11-03 08:55:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:54] INFO: Detected untracked firejail: Firejail (PID: 67980)
+[2025-11-03 08:55:54] INFO: Application closed: Process 67978 (ran for 0.0s)
+[2025-11-03 08:55:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:55:56] INFO: Detected untracked firejail: Firejail (PID: 67986)
+[2025-11-03 08:55:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:55:56] INFO: Application closed: Process 67984 (ran for 0.0s)
+[2025-11-03 08:55:58] INFO: Detected untracked firejail: Firejail (PID: 67990)
+[2025-11-03 08:55:58] INFO: Application closed: Process 67991 (ran for 0.0s)
+[2025-11-03 08:55:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:00] INFO: Detected untracked firejail: Firejail (PID: 68000)
+[2025-11-03 08:56:00] INFO: Application closed: Process 67998 (ran for 0.0s)
+[2025-11-03 08:56:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:02] INFO: Detected untracked firejail: Firejail (PID: 68006)
+[2025-11-03 08:56:03] INFO: Cleaning up dead process: 68006
+[2025-11-03 08:56:04] INFO: Detected untracked firejail: Firejail (PID: 68016)
+[2025-11-03 08:56:04] INFO: Application closed: Process 68014 (ran for 0.0s)
+[2025-11-03 08:56:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:06] INFO: Application closed: Process 68022 (ran for 0.0s)
+[2025-11-03 08:56:06] INFO: Application closed: Process 68023 (ran for 0.0s)
+[2025-11-03 08:56:07] INFO: Sent shutdown to Firefox (PID: 66615)
+[2025-11-03 08:56:08] INFO: Sent SIGKILL to Firefox (PID: 66615)
+[2025-11-03 08:56:08] INFO: Application closed: Firefox (ran for 113.7s)
+[2025-11-03 08:56:08] INFO: Detected untracked firejail: Sandboxed Application (PID: 68031)
+[2025-11-03 08:56:08] INFO: Application closed: Process 68030 (ran for 0.0s)
+[2025-11-03 08:56:08] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:56:10] INFO: Detected untracked firejail: Firejail (PID: 68040)
+[2025-11-03 08:56:10] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:10] INFO: Application closed: Process 68039 (ran for 0.0s)
+[2025-11-03 08:56:12] INFO: Sent shutdown to PDF (pdf_file.pdf) (PID: 67753)
+[2025-11-03 08:56:12] INFO: Sent SIGKILL to PDF (pdf_file.pdf) (PID: 67753)
+[2025-11-03 08:56:12] INFO: Application closed: PDF (pdf_file.pdf) (ran for 48.0s)
+[2025-11-03 08:56:14] INFO: Application closed: Process 68058 (ran for 0.0s)
+[2025-11-03 08:56:14] INFO: Application closed: Process 68059 (ran for 0.0s)
+[2025-11-03 08:56:16] INFO: Detected untracked firejail: Firejail (PID: 68066)
+[2025-11-03 08:56:16] INFO: Application closed: Process 68064 (ran for 0.0s)
+[2025-11-03 08:56:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:18] INFO: Detected untracked firejail: Firejail (PID: 68073)
+[2025-11-03 08:56:18] INFO: Application closed: Process 68071 (ran for 0.0s)
+[2025-11-03 08:56:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:20] INFO: Detected untracked firejail: Firejail (PID: 68079)
+[2025-11-03 08:56:20] INFO: Application closed: Process 68077 (ran for 0.0s)
+[2025-11-03 08:56:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:22] INFO: Application closed: Process 68085 (ran for 0.0s)
+[2025-11-03 08:56:22] INFO: Application closed: Process 68083 (ran for 0.0s)
+[2025-11-03 08:56:24] INFO: Detected untracked firejail: Firejail (PID: 68092)
+[2025-11-03 08:56:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:24] INFO: Application closed: Process 68090 (ran for 0.0s)
+[2025-11-03 08:56:26] INFO: Detected untracked firejail: Firejail (PID: 68098)
+[2025-11-03 08:56:26] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:26] INFO: Application closed: Process 68096 (ran for 0.0s)
+[2025-11-03 08:56:28] INFO: Detected untracked firejail: Firejail (PID: 68105)
+[2025-11-03 08:56:28] INFO: Application closed: Process 68103 (ran for 0.0s)
+[2025-11-03 08:56:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:30] INFO: Detected untracked firejail: Firejail (PID: 68111)
+[2025-11-03 08:56:30] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:30] INFO: Application closed: Process 68109 (ran for 0.0s)
+[2025-11-03 08:56:32] INFO: Detected untracked firejail: Firejail (PID: 68117)
+[2025-11-03 08:56:32] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:32] INFO: Application closed: Process 68118 (ran for 0.0s)
+[2025-11-03 08:56:34] INFO: Detected untracked firejail: Firejail (PID: 68125)
+[2025-11-03 08:56:34] INFO: Application closed: Process 68123 (ran for 0.0s)
+[2025-11-03 08:56:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:36] INFO: Detected untracked firejail: Firejail (PID: 68131)
+[2025-11-03 08:56:36] INFO: Application closed: Process 68129 (ran for 0.0s)
+[2025-11-03 08:56:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:38] INFO: Detected untracked firejail: Firejail (PID: 68137)
+[2025-11-03 08:56:38] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:38] INFO: Application closed: Process 68135 (ran for 0.0s)
+[2025-11-03 08:56:40] INFO: Detected untracked firejail: Firejail (PID: 68144)
+[2025-11-03 08:56:40] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:40] INFO: Application closed: Process 68142 (ran for 0.0s)
+[2025-11-03 08:56:42] INFO: Detected untracked firejail: Firejail (PID: 68150)
+[2025-11-03 08:56:42] INFO: Application closed: Process 68148 (ran for 0.0s)
+[2025-11-03 08:56:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:44] INFO: Detected untracked firejail: Firejail (PID: 68156)
+[2025-11-03 08:56:44] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:44] INFO: Application closed: Process 68154 (ran for 0.0s)
+[2025-11-03 08:56:46] INFO: Detected untracked firejail: Firejail (PID: 68162)
+[2025-11-03 08:56:46] INFO: Application closed: Process 68160 (ran for 0.0s)
+[2025-11-03 08:56:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:48] INFO: Application closed: Process 68169 (ran for 0.0s)
+[2025-11-03 08:56:48] INFO: Application closed: Process 68167 (ran for 0.0s)
+[2025-11-03 08:56:50] INFO: Detected untracked firejail: Firejail (PID: 68174)
+[2025-11-03 08:56:50] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:50] INFO: Application closed: Process 68175 (ran for 0.0s)
+[2025-11-03 08:56:52] INFO: Detected untracked firejail: Firejail (PID: 68183)
+[2025-11-03 08:56:52] INFO: Application closed: Process 68181 (ran for 0.0s)
+[2025-11-03 08:56:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:56:54] INFO: Detected untracked firejail: Firejail (PID: 68188)
+[2025-11-03 08:56:54] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:54] INFO: Application closed: Process 68190 (ran for 0.0s)
+[2025-11-03 08:56:56] INFO: Detected untracked firejail: Firejail (PID: 68194)
+[2025-11-03 08:56:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:56:56] INFO: Application closed: Process 68195 (ran for 0.0s)
+[2025-11-03 08:56:58] INFO: Application closed: Process 68201 (ran for 0.0s)
+[2025-11-03 08:56:58] INFO: Application closed: Process 68200 (ran for 0.0s)
+[2025-11-03 08:57:00] INFO: Detected untracked firejail: Firejail (PID: 68212)
+[2025-11-03 08:57:00] INFO: Application closed: Process 68210 (ran for 0.0s)
+[2025-11-03 08:57:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:02] INFO: Detected untracked firejail: Firejail (PID: 68217)
+[2025-11-03 08:57:02] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:02] INFO: Application closed: Process 68216 (ran for 0.0s)
+[2025-11-03 08:57:04] INFO: Application closed: Process 68224 (ran for 0.0s)
+[2025-11-03 08:57:04] INFO: Application closed: Process 68225 (ran for 0.0s)
+[2025-11-03 08:57:06] INFO: Detected untracked firejail: Firejail (PID: 68233)
+[2025-11-03 08:57:06] INFO: Application closed: Process 68231 (ran for 0.0s)
+[2025-11-03 08:57:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:08] INFO: Detected untracked firejail: Firejail (PID: 68237)
+[2025-11-03 08:57:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:08] INFO: Application closed: Process 68238 (ran for 0.0s)
+[2025-11-03 08:57:10] INFO: Detected untracked firejail: Firejail (PID: 68245)
+[2025-11-03 08:57:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:12] INFO: Detected untracked firejail: Firejail (PID: 68248)
+[2025-11-03 08:57:12] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:12] INFO: Application closed: Process 68249 (ran for 0.0s)
+[2025-11-03 08:57:14] INFO: Detected untracked firejail: Firejail (PID: 68257)
+[2025-11-03 08:57:14] INFO: Application closed: Process 68256 (ran for 0.0s)
+[2025-11-03 08:57:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:16] INFO: Detected untracked firejail: Firejail (PID: 68262)
+[2025-11-03 08:57:16] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:16] INFO: Application closed: Process 68264 (ran for 0.0s)
+[2025-11-03 08:57:18] INFO: Detected untracked firejail: Firejail (PID: 68271)
+[2025-11-03 08:57:18] INFO: Application closed: Process 68269 (ran for 0.0s)
+[2025-11-03 08:57:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:20] INFO: Detected untracked firejail: Firejail (PID: 68277)
+[2025-11-03 08:57:20] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:20] INFO: Application closed: Process 68275 (ran for 0.0s)
+[2025-11-03 08:57:22] INFO: Application closed: Process 68281 (ran for 0.0s)
+[2025-11-03 08:57:22] INFO: Application closed: Process 68283 (ran for 0.0s)
+[2025-11-03 08:57:24] INFO: Detected untracked firejail: Sandboxed Application (PID: 68289)
+[2025-11-03 08:57:24] INFO: Application closed: Process 68287 (ran for 0.0s)
+[2025-11-03 08:57:24] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:57:26] INFO: Detected untracked firejail: Sandboxed Application (PID: 68293)
+[2025-11-03 08:57:26] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:57:26] INFO: Application closed: Process 68295 (ran for 0.0s)
+[2025-11-03 08:57:28] INFO: Application closed: Process 68301 (ran for 0.0s)
+[2025-11-03 08:57:28] INFO: Application closed: Process 68299 (ran for 0.0s)
+[2025-11-03 08:57:30] INFO: Detected untracked firejail: Firejail (PID: 68308)
+[2025-11-03 08:57:30] INFO: Application closed: Process 68307 (ran for 0.0s)
+[2025-11-03 08:57:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:32] INFO: Application closed: Process 68315 (ran for 0.0s)
+[2025-11-03 08:57:32] INFO: Application closed: Process 68314 (ran for 0.0s)
+[2025-11-03 08:57:34] INFO: Detected untracked firejail: Firejail (PID: 68321)
+[2025-11-03 08:57:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:34] INFO: Application closed: Process 68320 (ran for 0.0s)
+[2025-11-03 08:57:36] INFO: Detected untracked firejail: Firejail (PID: 68326)
+[2025-11-03 08:57:36] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:36] INFO: Application closed: Process 68327 (ran for 0.0s)
+[2025-11-03 08:57:38] INFO: Detected untracked firejail: Firejail (PID: 68334)
+[2025-11-03 08:57:38] INFO: Application closed: Process 68332 (ran for 0.0s)
+[2025-11-03 08:57:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:40] INFO: Application closed: Process 68340 (ran for 0.0s)
+[2025-11-03 08:57:40] INFO: Application closed: Process 68338 (ran for 0.0s)
+[2025-11-03 08:57:42] INFO: Detected untracked firejail: Firejail (PID: 68345)
+[2025-11-03 08:57:42] INFO: Application closed: Process 68344 (ran for 0.0s)
+[2025-11-03 08:57:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:44] INFO: Application closed: Process 68351 (ran for 0.0s)
+[2025-11-03 08:57:44] INFO: Application closed: Process 68350 (ran for 0.0s)
+[2025-11-03 08:57:46] INFO: Detected untracked firejail: Sandboxed Application (PID: 68358)
+[2025-11-03 08:57:46] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:57:46] INFO: Application closed: Process 68356 (ran for 0.0s)
+[2025-11-03 08:57:48] INFO: Detected untracked firejail: Firejail (PID: 68365)
+[2025-11-03 08:57:48] INFO: Application closed: Process 68363 (ran for 0.0s)
+[2025-11-03 08:57:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:50] INFO: Detected untracked firejail: Firejail (PID: 68372)
+[2025-11-03 08:57:50] INFO: Application closed: Process 68370 (ran for 0.0s)
+[2025-11-03 08:57:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:52] INFO: Detected untracked firejail: Firejail (PID: 68378)
+[2025-11-03 08:57:52] INFO: Application closed: Process 68377 (ran for 0.0s)
+[2025-11-03 08:57:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:54] INFO: Detected untracked firejail: Firejail (PID: 68385)
+[2025-11-03 08:57:54] INFO: Application closed: Process 68384 (ran for 0.0s)
+[2025-11-03 08:57:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:56] INFO: Detected untracked firejail: Firejail (PID: 68392)
+[2025-11-03 08:57:56] INFO: Application closed: Process 68390 (ran for 0.0s)
+[2025-11-03 08:57:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:57:58] INFO: Detected untracked firejail: Firejail (PID: 68398)
+[2025-11-03 08:57:58] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:57:58] INFO: Application closed: Process 68396 (ran for 0.0s)
+[2025-11-03 08:58:00] INFO: Detected untracked firejail: Firejail (PID: 68405)
+[2025-11-03 08:58:00] INFO: Application closed: Process 68407 (ran for 0.0s)
+[2025-11-03 08:58:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:02] INFO: Detected untracked firejail: Firejail (PID: 68413)
+[2025-11-03 08:58:02] INFO: Application closed: Process 68411 (ran for 0.0s)
+[2025-11-03 08:58:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:04] INFO: Detected untracked firejail: Firejail (PID: 68419)
+[2025-11-03 08:58:04] INFO: Application closed: Process 68421 (ran for 0.0s)
+[2025-11-03 08:58:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:06] INFO: Application closed: Process 68428 (ran for 0.0s)
+[2025-11-03 08:58:06] INFO: Application closed: Process 68426 (ran for 0.0s)
+[2025-11-03 08:58:08] INFO: Detected untracked firejail: Firejail (PID: 68432)
+[2025-11-03 08:58:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:58:08] INFO: Application closed: Process 68433 (ran for 0.0s)
+[2025-11-03 08:58:10] INFO: Application closed: Process 68440 (ran for 0.0s)
+[2025-11-03 08:58:10] INFO: Application closed: Process 68439 (ran for 0.0s)
+[2025-11-03 08:58:12] INFO: Detected untracked firejail: Firejail (PID: 68447)
+[2025-11-03 08:58:12] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:58:12] INFO: Application closed: Process 68449 (ran for 0.0s)
+[2025-11-03 08:58:14] INFO: Application closed: Process 68455 (ran for 0.0s)
+[2025-11-03 08:58:14] INFO: Application closed: Process 68457 (ran for 0.0s)
+[2025-11-03 08:58:16] INFO: Detected untracked firejail: Firejail (PID: 68462)
+[2025-11-03 08:58:16] INFO: Application closed: Process 68461 (ran for 0.0s)
+[2025-11-03 08:58:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:18] INFO: Detected untracked firejail: Firejail (PID: 68468)
+[2025-11-03 08:58:18] INFO: Application closed: Process 68469 (ran for 0.0s)
+[2025-11-03 08:58:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:20] INFO: Detected untracked firejail: Sandboxed Application (PID: 68474)
+[2025-11-03 08:58:20] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:58:20] INFO: Application closed: Process 68476 (ran for 0.0s)
+[2025-11-03 08:58:22] INFO: Detected untracked firejail: Firejail (PID: 68482)
+[2025-11-03 08:58:22] INFO: Application closed: Process 68480 (ran for 0.0s)
+[2025-11-03 08:58:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:24] INFO: Detected untracked firejail: Firejail (PID: 68488)
+[2025-11-03 08:58:24] INFO: Application closed: Process 68486 (ran for 0.0s)
+[2025-11-03 08:58:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:26] INFO: Detected untracked firejail: Firejail (PID: 68493)
+[2025-11-03 08:58:26] INFO: Application closed: Process 68492 (ran for 0.0s)
+[2025-11-03 08:58:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:28] INFO: Detected untracked firejail: Firejail (PID: 68498)
+[2025-11-03 08:58:28] INFO: Application closed: Process 68499 (ran for 0.0s)
+[2025-11-03 08:58:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:30] INFO: Detected untracked firejail: Firejail (PID: 68507)
+[2025-11-03 08:58:30] INFO: Application closed: Process 68505 (ran for 0.0s)
+[2025-11-03 08:58:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:32] INFO: Detected untracked firejail: Firejail (PID: 68513)
+[2025-11-03 08:58:32] INFO: Application closed: Process 68511 (ran for 0.0s)
+[2025-11-03 08:58:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:34] INFO: Detected untracked firejail: Firejail (PID: 68519)
+[2025-11-03 08:58:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:58:34] INFO: Application closed: Process 68517 (ran for 0.0s)
+[2025-11-03 08:58:36] INFO: Detected untracked firejail: Firejail (PID: 68523)
+[2025-11-03 08:58:36] INFO: Application closed: Process 68524 (ran for 0.0s)
+[2025-11-03 08:58:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:38] INFO: Detected untracked firejail: Firejail (PID: 68531)
+[2025-11-03 08:58:38] INFO: Application closed: Process 68529 (ran for 0.0s)
+[2025-11-03 08:58:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:40] INFO: Detected untracked firejail: Sandboxed Application (PID: 68536)
+[2025-11-03 08:58:40] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:58:40] INFO: Application closed: Process 68535 (ran for 0.0s)
+[2025-11-03 08:58:42] INFO: Detected untracked firejail: Firejail (PID: 68543)
+[2025-11-03 08:58:42] INFO: Application closed: Process 68541 (ran for 0.0s)
+[2025-11-03 08:58:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:44] INFO: Detected untracked firejail: Firejail (PID: 68549)
+[2025-11-03 08:58:44] INFO: Application closed: Process 68547 (ran for 0.0s)
+[2025-11-03 08:58:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:46] INFO: Detected untracked firejail: Sandboxed Application (PID: 68554)
+[2025-11-03 08:58:46] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:58:46] INFO: Application closed: Process 68553 (ran for 0.0s)
+[2025-11-03 08:58:48] INFO: Detected untracked firejail: Firejail (PID: 68561)
+[2025-11-03 08:58:48] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:58:48] INFO: Application closed: Process 68562 (ran for 0.0s)
+[2025-11-03 08:58:50] INFO: Detected untracked firejail: Firejail (PID: 68570)
+[2025-11-03 08:58:50] INFO: Application closed: Process 68568 (ran for 0.0s)
+[2025-11-03 08:58:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:52] INFO: Detected untracked firejail: Firejail (PID: 68575)
+[2025-11-03 08:58:52] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:58:52] INFO: Application closed: Process 68577 (ran for 0.0s)
+[2025-11-03 08:58:54] INFO: Detected untracked firejail: Firejail (PID: 68584)
+[2025-11-03 08:58:54] INFO: Application closed: Process 68582 (ran for 0.0s)
+[2025-11-03 08:58:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:56] INFO: Detected untracked firejail: Firejail (PID: 68590)
+[2025-11-03 08:58:56] INFO: Application closed: Process 68588 (ran for 0.0s)
+[2025-11-03 08:58:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:58:58] INFO: Detected untracked firejail: Sandboxed Application (PID: 68596)
+[2025-11-03 08:58:58] INFO: Application closed: Process 68594 (ran for 0.0s)
+[2025-11-03 08:58:58] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:59:00] INFO: Detected untracked firejail: Firejail (PID: 68605)
+[2025-11-03 08:59:00] INFO: Application closed: Process 68603 (ran for 0.0s)
+[2025-11-03 08:59:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:02] INFO: Detected untracked firejail: Firejail (PID: 68611)
+[2025-11-03 08:59:02] INFO: Application closed: Process 68609 (ran for 0.0s)
+[2025-11-03 08:59:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:04] INFO: Detected untracked firejail: Firejail (PID: 68619)
+[2025-11-03 08:59:04] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:59:04] INFO: Application closed: Process 68617 (ran for 0.0s)
+[2025-11-03 08:59:06] INFO: Detected untracked firejail: Firejail (PID: 68626)
+[2025-11-03 08:59:06] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:59:06] INFO: Application closed: Process 68624 (ran for 0.0s)
+[2025-11-03 08:59:08] INFO: Application closed: Process 68630 (ran for 0.0s)
+[2025-11-03 08:59:08] INFO: Application closed: Process 68632 (ran for 0.0s)
+[2025-11-03 08:59:10] INFO: Application closed: Process 68638 (ran for 0.0s)
+[2025-11-03 08:59:10] INFO: Application closed: Process 68636 (ran for 0.0s)
+[2025-11-03 08:59:12] INFO: Detected untracked firejail: Firejail (PID: 68644)
+[2025-11-03 08:59:12] INFO: Application closed: Process 68642 (ran for 0.0s)
+[2025-11-03 08:59:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:14] INFO: Application closed: Process 68650 (ran for 0.0s)
+[2025-11-03 08:59:14] INFO: Application closed: Process 68652 (ran for 0.0s)
+[2025-11-03 08:59:16] INFO: Detected untracked firejail: Sandboxed Application (PID: 68658)
+[2025-11-03 08:59:16] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:59:16] INFO: Application closed: Process 68656 (ran for 0.0s)
+[2025-11-03 08:59:18] INFO: Detected untracked firejail: Firejail (PID: 68665)
+[2025-11-03 08:59:18] INFO: Application closed: Process 68663 (ran for 0.0s)
+[2025-11-03 08:59:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:20] INFO: Detected untracked firejail: Firejail (PID: 68671)
+[2025-11-03 08:59:20] INFO: Application closed: Process 68669 (ran for 0.0s)
+[2025-11-03 08:59:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:22] INFO: Detected untracked firejail: Firejail (PID: 68677)
+[2025-11-03 08:59:22] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:59:22] INFO: Application closed: Process 68675 (ran for 0.0s)
+[2025-11-03 08:59:24] INFO: Detected untracked firejail: Firejail (PID: 68683)
+[2025-11-03 08:59:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:59:24] INFO: Application closed: Process 68681 (ran for 0.0s)
+[2025-11-03 08:59:26] INFO: Application closed: Process 68689 (ran for 0.0s)
+[2025-11-03 08:59:26] INFO: Application closed: Process 68687 (ran for 0.0s)
+[2025-11-03 08:59:28] INFO: Detected untracked firejail: Firejail (PID: 68697)
+[2025-11-03 08:59:28] INFO: Application closed: Process 68696 (ran for 0.0s)
+[2025-11-03 08:59:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:30] INFO: Detected untracked firejail: Firejail (PID: 68705)
+[2025-11-03 08:59:30] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:59:30] INFO: Application closed: Process 68703 (ran for 0.0s)
+[2025-11-03 08:59:32] INFO: Detected untracked firejail: Firejail (PID: 68711)
+[2025-11-03 08:59:32] INFO: Application closed: Process 68709 (ran for 0.0s)
+[2025-11-03 08:59:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:34] INFO: Detected untracked firejail: Firejail (PID: 68717)
+[2025-11-03 08:59:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 08:59:34] INFO: Application closed: Process 68715 (ran for 0.0s)
+[2025-11-03 08:59:36] INFO: Detected untracked firejail: Sandboxed Application (PID: 68721)
+[2025-11-03 08:59:36] INFO: Application closed: Process 68722 (ran for 0.0s)
+[2025-11-03 08:59:36] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 08:59:38] INFO: Application closed: Process 68729 (ran for 0.0s)
+[2025-11-03 08:59:38] INFO: Application closed: Process 68727 (ran for 0.0s)
+[2025-11-03 08:59:40] INFO: Application closed: Process 68733 (ran for 0.0s)
+[2025-11-03 08:59:40] INFO: Application closed: Process 68735 (ran for 0.0s)
+[2025-11-03 08:59:42] INFO: Detected untracked firejail: Firejail (PID: 68741)
+[2025-11-03 08:59:42] INFO: Application closed: Process 68739 (ran for 0.0s)
+[2025-11-03 08:59:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:44] INFO: Detected untracked firejail: Firejail (PID: 68747)
+[2025-11-03 08:59:44] INFO: Application closed: Process 68745 (ran for 0.0s)
+[2025-11-03 08:59:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:46] INFO: Detected untracked firejail: Firejail (PID: 68753)
+[2025-11-03 08:59:46] INFO: Application closed: Process 68751 (ran for 0.0s)
+[2025-11-03 08:59:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:48] INFO: Application closed: Process 68761 (ran for 0.0s)
+[2025-11-03 08:59:48] INFO: Application closed: Process 68759 (ran for 0.0s)
+[2025-11-03 08:59:50] INFO: Detected untracked firejail: Firejail (PID: 68768)
+[2025-11-03 08:59:50] INFO: Application closed: Process 68766 (ran for 0.0s)
+[2025-11-03 08:59:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:52] INFO: Detected untracked firejail: Firejail (PID: 68775)
+[2025-11-03 08:59:52] INFO: Application closed: Process 68773 (ran for 0.0s)
+[2025-11-03 08:59:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:54] INFO: Detected untracked firejail: Firejail (PID: 68782)
+[2025-11-03 08:59:54] INFO: Application closed: Process 68780 (ran for 0.0s)
+[2025-11-03 08:59:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:56] INFO: Detected untracked firejail: Firejail (PID: 68788)
+[2025-11-03 08:59:56] INFO: Application closed: Process 68786 (ran for 0.0s)
+[2025-11-03 08:59:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 08:59:58] INFO: Detected untracked firejail: Firejail (PID: 68794)
+[2025-11-03 08:59:58] INFO: Application closed: Process 68792 (ran for 0.0s)
+[2025-11-03 08:59:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:00] INFO: Detected untracked firejail: Firejail (PID: 68803)
+[2025-11-03 09:00:00] INFO: Application closed: Process 68801 (ran for 0.0s)
+[2025-11-03 09:00:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:02] INFO: Detected untracked firejail: Firejail (PID: 68809)
+[2025-11-03 09:00:02] INFO: Application closed: Process 68807 (ran for 0.0s)
+[2025-11-03 09:00:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:04] INFO: Detected untracked firejail: Firejail (PID: 68817)
+[2025-11-03 09:00:04] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:00:04] INFO: Application closed: Process 68815 (ran for 0.0s)
+[2025-11-03 09:00:06] INFO: Application closed: Process 68822 (ran for 0.0s)
+[2025-11-03 09:00:06] INFO: Application closed: Process 68824 (ran for 0.0s)
+[2025-11-03 09:00:08] INFO: Detected untracked firejail: Firejail (PID: 68830)
+[2025-11-03 09:00:08] INFO: Application closed: Process 68828 (ran for 0.0s)
+[2025-11-03 09:00:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:10] INFO: Detected untracked firejail: Firejail (PID: 68836)
+[2025-11-03 09:00:10] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:00:10] INFO: Application closed: Process 68834 (ran for 0.0s)
+[2025-11-03 09:00:12] INFO: Detected untracked firejail: Firejail (PID: 68842)
+[2025-11-03 09:00:12] INFO: Application closed: Process 68840 (ran for 0.0s)
+[2025-11-03 09:00:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:14] INFO: Detected untracked firejail: Firejail (PID: 68847)
+[2025-11-03 09:00:14] INFO: Application closed: Process 68849 (ran for 0.0s)
+[2025-11-03 09:00:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:16] INFO: Detected untracked firejail: Firejail (PID: 68856)
+[2025-11-03 09:00:16] INFO: Application closed: Process 68854 (ran for 0.0s)
+[2025-11-03 09:00:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:18] INFO: Application closed: Process 68863 (ran for 0.0s)
+[2025-11-03 09:00:18] INFO: Application closed: Process 68861 (ran for 0.0s)
+[2025-11-03 09:00:20] INFO: Detected untracked firejail: Sandboxed Application (PID: 68869)
+[2025-11-03 09:00:20] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:00:20] INFO: Application closed: Process 68867 (ran for 0.0s)
+[2025-11-03 09:00:22] INFO: Detected untracked firejail: Firejail (PID: 68875)
+[2025-11-03 09:00:22] INFO: Application closed: Process 68873 (ran for 0.0s)
+[2025-11-03 09:00:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:24] INFO: Detected untracked firejail: Firejail (PID: 68881)
+[2025-11-03 09:00:24] INFO: Application closed: Process 68879 (ran for 0.0s)
+[2025-11-03 09:00:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:26] INFO: Detected untracked firejail: Firejail (PID: 68885)
+[2025-11-03 09:00:26] INFO: Application closed: Process 68887 (ran for 0.0s)
+[2025-11-03 09:00:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:28] INFO: Detected untracked firejail: Firejail (PID: 68893)
+[2025-11-03 09:00:28] INFO: Application closed: Process 68891 (ran for 0.0s)
+[2025-11-03 09:00:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:30] INFO: Application closed: Process 68899 (ran for 0.0s)
+[2025-11-03 09:00:30] INFO: Application closed: Process 68898 (ran for 0.0s)
+[2025-11-03 09:00:32] INFO: Detected untracked firejail: Firejail (PID: 68906)
+[2025-11-03 09:00:32] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:00:32] INFO: Application closed: Process 68904 (ran for 0.0s)
+[2025-11-03 09:00:34] INFO: Detected untracked firejail: Firejail (PID: 68912)
+[2025-11-03 09:00:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:00:34] INFO: Application closed: Process 68910 (ran for 0.0s)
+[2025-11-03 09:00:36] INFO: Detected untracked firejail: Firejail (PID: 68918)
+[2025-11-03 09:00:36] INFO: Application closed: Process 68916 (ran for 0.0s)
+[2025-11-03 09:00:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:38] INFO: Detected untracked firejail: Firejail (PID: 68924)
+[2025-11-03 09:00:38] INFO: Application closed: Process 68922 (ran for 0.0s)
+[2025-11-03 09:00:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:40] INFO: Detected untracked firejail: Firejail (PID: 68928)
+[2025-11-03 09:00:40] INFO: Application closed: Process 68929 (ran for 0.0s)
+[2025-11-03 09:00:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:42] INFO: Application closed: Process 68937 (ran for 0.0s)
+[2025-11-03 09:00:42] INFO: Application closed: Process 68935 (ran for 0.0s)
+[2025-11-03 09:00:44] INFO: Detected untracked firejail: Firejail (PID: 68943)
+[2025-11-03 09:00:44] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:00:44] INFO: Application closed: Process 68941 (ran for 0.0s)
+[2025-11-03 09:00:46] INFO: Application closed: Process 68949 (ran for 0.0s)
+[2025-11-03 09:00:46] INFO: Application closed: Process 68947 (ran for 0.0s)
+[2025-11-03 09:00:48] INFO: Detected untracked firejail: Firejail (PID: 68954)
+[2025-11-03 09:00:48] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:00:48] INFO: Application closed: Process 68956 (ran for 0.0s)
+[2025-11-03 09:00:50] INFO: Detected untracked firejail: Firejail (PID: 68965)
+[2025-11-03 09:00:50] INFO: Application closed: Process 68963 (ran for 0.0s)
+[2025-11-03 09:00:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:52] INFO: Detected untracked firejail: Firejail (PID: 68972)
+[2025-11-03 09:00:52] INFO: Application closed: Process 68970 (ran for 0.0s)
+[2025-11-03 09:00:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:54] INFO: Detected untracked firejail: Firejail (PID: 68980)
+[2025-11-03 09:00:54] INFO: Application closed: Process 68978 (ran for 0.0s)
+[2025-11-03 09:00:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:56] INFO: Detected untracked firejail: Firejail (PID: 68986)
+[2025-11-03 09:00:56] INFO: Application closed: Process 68984 (ran for 0.0s)
+[2025-11-03 09:00:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:00:58] INFO: Detected untracked firejail: Firejail (PID: 68990)
+[2025-11-03 09:00:58] INFO: Application closed: Process 68992 (ran for 0.0s)
+[2025-11-03 09:00:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:00] INFO: Detected untracked firejail: Firejail (PID: 69000)
+[2025-11-03 09:01:00] INFO: Application closed: Process 68998 (ran for 0.0s)
+[2025-11-03 09:01:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:02] INFO: Detected untracked firejail: Firejail (PID: 69004)
+[2025-11-03 09:01:02] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:02] INFO: Application closed: Process 69006 (ran for 0.0s)
+[2025-11-03 09:01:04] INFO: Detected untracked firejail: Sandboxed Application (PID: 69012)
+[2025-11-03 09:01:04] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:04] INFO: Application closed: Process 69014 (ran for 0.0s)
+[2025-11-03 09:01:06] INFO: Detected untracked firejail: Firejail (PID: 69021)
+[2025-11-03 09:01:06] INFO: Application closed: Process 69019 (ran for 0.0s)
+[2025-11-03 09:01:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:08] INFO: Detected untracked firejail: Firejail (PID: 69027)
+[2025-11-03 09:01:08] INFO: Application closed: Process 69025 (ran for 0.0s)
+[2025-11-03 09:01:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:10] INFO: Detected untracked firejail: Firejail (PID: 69033)
+[2025-11-03 09:01:10] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:10] INFO: Application closed: Process 69031 (ran for 0.0s)
+[2025-11-03 09:01:12] INFO: Detected untracked firejail: Sandboxed Application (PID: 69039)
+[2025-11-03 09:01:12] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:12] INFO: Application closed: Process 69037 (ran for 0.0s)
+[2025-11-03 09:01:14] INFO: Detected untracked firejail: Firejail (PID: 69046)
+[2025-11-03 09:01:14] INFO: Application closed: Process 69044 (ran for 0.0s)
+[2025-11-03 09:01:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:16] INFO: Detected untracked firejail: Firejail (PID: 69053)
+[2025-11-03 09:01:16] INFO: Application closed: Process 69051 (ran for 0.0s)
+[2025-11-03 09:01:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:18] INFO: Detected untracked firejail: Firejail (PID: 69060)
+[2025-11-03 09:01:18] INFO: Application closed: Process 69058 (ran for 0.0s)
+[2025-11-03 09:01:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:20] INFO: Detected untracked firejail: Sandboxed Application (PID: 69066)
+[2025-11-03 09:01:20] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:20] INFO: Application closed: Process 69068 (ran for 0.0s)
+[2025-11-03 09:01:22] INFO: Detected untracked firejail: Firejail (PID: 69074)
+[2025-11-03 09:01:22] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:22] INFO: Application closed: Process 69072 (ran for 0.0s)
+[2025-11-03 09:01:24] INFO: Detected untracked firejail: Firejail (PID: 69082)
+[2025-11-03 09:01:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:26] INFO: Application closed: Process 69085 (ran for 0.0s)
+[2025-11-03 09:01:26] INFO: Application closed: Process 69087 (ran for 0.0s)
+[2025-11-03 09:01:28] INFO: Detected untracked firejail: Firejail (PID: 69092)
+[2025-11-03 09:01:28] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:28] INFO: Application closed: Process 69094 (ran for 0.0s)
+[2025-11-03 09:01:30] INFO: Detected untracked firejail: Sandboxed Application (PID: 69099)
+[2025-11-03 09:01:30] INFO: Application closed: Process 69101 (ran for 0.0s)
+[2025-11-03 09:01:30] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:32] INFO: Detected untracked firejail: Firejail (PID: 69107)
+[2025-11-03 09:01:32] INFO: Application closed: Process 69105 (ran for 0.0s)
+[2025-11-03 09:01:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:34] INFO: Detected untracked firejail: Firejail (PID: 69114)
+[2025-11-03 09:01:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:34] WARNING: Could not reload state: Expecting value: line 1 column 1 (char 0)
+[2025-11-03 09:01:34] INFO: Application closed: Process 69112 (ran for 0.0s)
+[2025-11-03 09:01:36] INFO: Detected untracked firejail: Firejail (PID: 69119)
+[2025-11-03 09:01:36] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:36] INFO: Application closed: Process 69120 (ran for 0.0s)
+[2025-11-03 09:01:38] INFO: Detected untracked firejail: Firejail (PID: 69128)
+[2025-11-03 09:01:38] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:38] INFO: Application closed: Process 69126 (ran for 0.0s)
+[2025-11-03 09:01:40] INFO: Detected untracked firejail: Firejail (PID: 69132)
+[2025-11-03 09:01:40] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:40] INFO: Application closed: Process 69134 (ran for 0.0s)
+[2025-11-03 09:01:42] INFO: Detected untracked firejail: Firejail (PID: 69140)
+[2025-11-03 09:01:42] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:42] WARNING: Could not reload state: Expecting value: line 1 column 1 (char 0)
+[2025-11-03 09:01:42] INFO: Application closed: Process 69138 (ran for 0.0s)
+[2025-11-03 09:01:44] INFO: Detected untracked firejail: Firejail (PID: 69146)
+[2025-11-03 09:01:44] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:44] INFO: Application closed: Process 69144 (ran for 0.0s)
+[2025-11-03 09:01:46] INFO: Detected untracked firejail: Firejail (PID: 69152)
+[2025-11-03 09:01:46] INFO: Application closed: Process 69150 (ran for 0.0s)
+[2025-11-03 09:01:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:48] INFO: Detected untracked firejail: Firejail (PID: 69159)
+[2025-11-03 09:01:48] INFO: Application closed: Process 69161 (ran for 0.0s)
+[2025-11-03 09:01:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:01:50] INFO: Application closed: Process 69168 (ran for 0.0s)
+[2025-11-03 09:01:50] INFO: Application closed: Process 69170 (ran for 0.0s)
+[2025-11-03 09:01:52] INFO: Detected untracked firejail: Sandboxed Application (PID: 69176)
+[2025-11-03 09:01:52] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:52] INFO: Application closed: Process 69174 (ran for 0.0s)
+[2025-11-03 09:01:54] INFO: Detected untracked firejail: Sandboxed Application (PID: 69181)
+[2025-11-03 09:01:54] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:54] INFO: Application closed: Process 69183 (ran for 0.0s)
+[2025-11-03 09:01:56] INFO: Detected untracked firejail: Firejail (PID: 69187)
+[2025-11-03 09:01:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:01:56] INFO: Application closed: Process 69189 (ran for 0.0s)
+[2025-11-03 09:01:58] INFO: Detected untracked firejail: Sandboxed Application (PID: 69193)
+[2025-11-03 09:01:58] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:01:58] INFO: Application closed: Process 69195 (ran for 0.0s)
+[2025-11-03 09:02:00] INFO: Detected untracked firejail: Firejail (PID: 69205)
+[2025-11-03 09:02:00] INFO: Application closed: Process 69203 (ran for 0.0s)
+[2025-11-03 09:02:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:02] INFO: Detected untracked firejail: Firejail (PID: 69211)
+[2025-11-03 09:02:02] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:02:02] INFO: Application closed: Process 69209 (ran for 0.0s)
+[2025-11-03 09:02:04] INFO: Detected untracked firejail: Firejail (PID: 69219)
+[2025-11-03 09:02:04] INFO: Application closed: Process 69217 (ran for 0.0s)
+[2025-11-03 09:02:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:06] INFO: Detected untracked firejail: Firejail (PID: 69225)
+[2025-11-03 09:02:06] INFO: Application closed: Process 69223 (ran for 0.0s)
+[2025-11-03 09:02:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:08] INFO: Detected untracked firejail: Firejail (PID: 69232)
+[2025-11-03 09:02:08] INFO: Application closed: Process 69230 (ran for 0.0s)
+[2025-11-03 09:02:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:10] INFO: Detected untracked firejail: Firejail (PID: 69238)
+[2025-11-03 09:02:10] INFO: Application closed: Process 69236 (ran for 0.0s)
+[2025-11-03 09:02:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:12] INFO: Detected untracked firejail: Firejail (PID: 69244)
+[2025-11-03 09:02:12] INFO: Application closed: Process 69242 (ran for 0.0s)
+[2025-11-03 09:02:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:14] INFO: Detected untracked firejail: Firejail (PID: 69251)
+[2025-11-03 09:02:14] INFO: Application closed: Process 69249 (ran for 0.0s)
+[2025-11-03 09:02:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:16] INFO: Detected untracked firejail: Firejail (PID: 69258)
+[2025-11-03 09:02:16] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:02:16] INFO: Application closed: Process 69256 (ran for 0.0s)
+[2025-11-03 09:02:18] INFO: Detected untracked firejail: Firejail (PID: 69266)
+[2025-11-03 09:02:18] INFO: Application closed: Process 69264 (ran for 0.0s)
+[2025-11-03 09:02:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:20] INFO: Detected untracked firejail: Firejail (PID: 69271)
+[2025-11-03 09:02:20] INFO: Application closed: Process 69273 (ran for 0.0s)
+[2025-11-03 09:02:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:22] INFO: Detected untracked firejail: Firejail (PID: 69279)
+[2025-11-03 09:02:22] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:02:22] INFO: Application closed: Process 69281 (ran for 0.0s)
+[2025-11-03 09:02:24] INFO: Detected untracked firejail: Firejail (PID: 69288)
+[2025-11-03 09:02:24] INFO: Application closed: Process 69286 (ran for 0.0s)
+[2025-11-03 09:02:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:26] INFO: Application closed: Process 69292 (ran for 0.0s)
+[2025-11-03 09:02:26] INFO: Application closed: Process 69294 (ran for 0.0s)
+[2025-11-03 09:02:28] INFO: Detected untracked firejail: Firejail (PID: 69300)
+[2025-11-03 09:02:28] INFO: Application closed: Process 69298 (ran for 0.0s)
+[2025-11-03 09:02:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:30] INFO: Detected untracked firejail: Sandboxed Application (PID: 69305)
+[2025-11-03 09:02:30] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:02:30] INFO: Application closed: Process 69304 (ran for 0.0s)
+[2025-11-03 09:02:32] INFO: Detected untracked firejail: Sandboxed Application (PID: 69312)
+[2025-11-03 09:02:32] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:02:32] INFO: Application closed: Process 69310 (ran for 0.0s)
+[2025-11-03 09:02:34] INFO: Detected untracked firejail: Firejail (PID: 69320)
+[2025-11-03 09:02:34] INFO: Application closed: Process 69318 (ran for 0.0s)
+[2025-11-03 09:02:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:36] INFO: Detected untracked firejail: Firejail (PID: 69326)
+[2025-11-03 09:02:36] INFO: Application closed: Process 69324 (ran for 0.0s)
+[2025-11-03 09:02:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:38] INFO: Detected untracked firejail: Sandboxed Application (PID: 69330)
+[2025-11-03 09:02:38] INFO: Application closed: Process 69331 (ran for 0.0s)
+[2025-11-03 09:02:38] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:02:40] INFO: Detected untracked firejail: Firejail (PID: 69338)
+[2025-11-03 09:02:40] INFO: Application closed: Process 69336 (ran for 0.0s)
+[2025-11-03 09:02:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:42] INFO: Application closed: Process 69342 (ran for 0.0s)
+[2025-11-03 09:02:42] INFO: Application closed: Process 69344 (ran for 0.0s)
+[2025-11-03 09:02:44] INFO: Detected untracked firejail: Sandboxed Application (PID: 69348)
+[2025-11-03 09:02:44] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:02:44] INFO: Application closed: Process 69350 (ran for 0.0s)
+[2025-11-03 09:02:46] INFO: Detected untracked firejail: Sandboxed Application (PID: 69354)
+[2025-11-03 09:02:46] INFO: Application closed: Process 69356 (ran for 0.0s)
+[2025-11-03 09:02:46] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:02:48] INFO: Detected untracked firejail: Firejail (PID: 69362)
+[2025-11-03 09:02:48] INFO: Application closed: Process 69360 (ran for 0.0s)
+[2025-11-03 09:02:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:50] INFO: Detected untracked firejail: Firejail (PID: 69370)
+[2025-11-03 09:02:50] INFO: Application closed: Process 69368 (ran for 0.0s)
+[2025-11-03 09:02:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:52] INFO: Detected untracked firejail: Firejail (PID: 69376)
+[2025-11-03 09:02:52] INFO: Application closed: Process 69374 (ran for 0.0s)
+[2025-11-03 09:02:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:54] INFO: Detected untracked firejail: Firejail (PID: 69381)
+[2025-11-03 09:02:54] INFO: Application closed: Process 69382 (ran for 0.0s)
+[2025-11-03 09:02:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:56] INFO: Detected untracked firejail: Firejail (PID: 69389)
+[2025-11-03 09:02:56] INFO: Application closed: Process 69387 (ran for 0.0s)
+[2025-11-03 09:02:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:02:58] INFO: Detected untracked firejail: Firejail (PID: 69395)
+[2025-11-03 09:02:58] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:02:58] INFO: Application closed: Process 69393 (ran for 0.0s)
+[2025-11-03 09:03:00] INFO: Detected untracked firejail: Firejail (PID: 69404)
+[2025-11-03 09:03:00] INFO: Application closed: Process 69402 (ran for 0.0s)
+[2025-11-03 09:03:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:02] INFO: Detected untracked firejail: Firejail (PID: 69410)
+[2025-11-03 09:03:02] INFO: Application closed: Process 69408 (ran for 0.0s)
+[2025-11-03 09:03:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:04] INFO: Detected untracked firejail: Firejail (PID: 69418)
+[2025-11-03 09:03:04] INFO: Application closed: Process 69416 (ran for 0.0s)
+[2025-11-03 09:03:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:06] INFO: Detected untracked firejail: Firejail (PID: 69424)
+[2025-11-03 09:03:06] INFO: Application closed: Process 69422 (ran for 0.0s)
+[2025-11-03 09:03:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:08] INFO: Detected untracked firejail: Firejail (PID: 69431)
+[2025-11-03 09:03:08] INFO: Application closed: Process 69429 (ran for 0.0s)
+[2025-11-03 09:03:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:10] INFO: Application closed: Process 69435 (ran for 0.0s)
+[2025-11-03 09:03:10] INFO: Application closed: Process 69437 (ran for 0.0s)
+[2025-11-03 09:03:12] INFO: Detected untracked firejail: Firejail (PID: 69443)
+[2025-11-03 09:03:12] INFO: Application closed: Process 69441 (ran for 0.0s)
+[2025-11-03 09:03:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:14] INFO: Detected untracked firejail: Firejail (PID: 69451)
+[2025-11-03 09:03:14] INFO: Application closed: Process 69449 (ran for 0.0s)
+[2025-11-03 09:03:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:16] INFO: Detected untracked firejail: Firejail (PID: 69458)
+[2025-11-03 09:03:16] INFO: Application closed: Process 69456 (ran for 0.0s)
+[2025-11-03 09:03:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:18] INFO: Detected untracked firejail: Firejail (PID: 69464)
+[2025-11-03 09:03:18] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:03:18] INFO: Application closed: Process 69462 (ran for 0.0s)
+[2025-11-03 09:03:20] INFO: Application closed: Process 69469 (ran for 0.0s)
+[2025-11-03 09:03:20] INFO: Detected untracked firejail: Firejail (PID: 69468)
+[2025-11-03 09:03:20] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:03:22] INFO: Application closed: Process 69474 (ran for 0.0s)
+[2025-11-03 09:03:22] INFO: Application closed: Process 69476 (ran for 0.0s)
+[2025-11-03 09:03:24] INFO: Detected untracked firejail: Firejail (PID: 69480)
+[2025-11-03 09:03:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:03:24] INFO: Application closed: Process 69482 (ran for 0.0s)
+[2025-11-03 09:03:26] INFO: Detected untracked firejail: Firejail (PID: 69488)
+[2025-11-03 09:03:26] INFO: Application closed: Process 69486 (ran for 0.0s)
+[2025-11-03 09:03:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:28] INFO: Detected untracked firejail: Sandboxed Application (PID: 69494)
+[2025-11-03 09:03:28] INFO: Application closed: Process 69492 (ran for 0.0s)
+[2025-11-03 09:03:28] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:03:30] INFO: Detected untracked firejail: Sandboxed Application (PID: 69501)
+[2025-11-03 09:03:30] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:03:30] INFO: Application closed: Process 69499 (ran for 0.0s)
+[2025-11-03 09:03:32] INFO: Application closed: Process 69507 (ran for 0.0s)
+[2025-11-03 09:03:32] INFO: Application closed: Process 69505 (ran for 0.0s)
+[2025-11-03 09:03:34] INFO: Detected untracked firejail: Firejail (PID: 69513)
+[2025-11-03 09:03:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:03:34] INFO: Application closed: Process 69512 (ran for 0.0s)
+[2025-11-03 09:03:36] INFO: Detected untracked firejail: Firejail (PID: 69520)
+[2025-11-03 09:03:36] INFO: Application closed: Process 69518 (ran for 0.0s)
+[2025-11-03 09:03:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:38] INFO: Detected untracked firejail: Firejail (PID: 69526)
+[2025-11-03 09:03:38] INFO: Application closed: Process 69524 (ran for 0.0s)
+[2025-11-03 09:03:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:40] INFO: Detected untracked firejail: Firejail (PID: 69532)
+[2025-11-03 09:03:40] INFO: Application closed: Process 69530 (ran for 0.0s)
+[2025-11-03 09:03:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:42] INFO: Detected untracked firejail: Firejail (PID: 69536)
+[2025-11-03 09:03:42] INFO: Application closed: Process 69537 (ran for 0.0s)
+[2025-11-03 09:03:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:44] INFO: Detected untracked firejail: Firejail (PID: 69544)
+[2025-11-03 09:03:44] INFO: Application closed: Process 69542 (ran for 0.0s)
+[2025-11-03 09:03:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:46] INFO: Application closed: Process 69550 (ran for 0.0s)
+[2025-11-03 09:03:46] INFO: Application closed: Process 69548 (ran for 0.0s)
+[2025-11-03 09:03:48] INFO: Detected untracked firejail: Firejail (PID: 69556)
+[2025-11-03 09:03:48] INFO: Application closed: Process 69554 (ran for 0.0s)
+[2025-11-03 09:03:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:50] INFO: Detected untracked firejail: Firejail (PID: 69564)
+[2025-11-03 09:03:50] INFO: Application closed: Process 69562 (ran for 0.0s)
+[2025-11-03 09:03:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:52] INFO: Detected untracked firejail: Firejail (PID: 69571)
+[2025-11-03 09:03:52] INFO: Application closed: Process 69569 (ran for 0.0s)
+[2025-11-03 09:03:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:54] INFO: Detected untracked firejail: Firejail (PID: 69578)
+[2025-11-03 09:03:54] INFO: Application closed: Process 69576 (ran for 0.0s)
+[2025-11-03 09:03:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:03:56] INFO: Detected untracked firejail: Firejail (PID: 69584)
+[2025-11-03 09:03:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:03:56] INFO: Application closed: Process 69582 (ran for 0.0s)
+[2025-11-03 09:03:58] INFO: Detected untracked firejail: Firejail (PID: 69589)
+[2025-11-03 09:03:58] INFO: Application closed: Process 69588 (ran for 0.0s)
+[2025-11-03 09:03:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:00] INFO: Detected untracked firejail: Firejail (PID: 69599)
+[2025-11-03 09:04:00] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:00] INFO: Application closed: Process 69598 (ran for 0.0s)
+[2025-11-03 09:04:02] INFO: Detected untracked firejail: Firejail (PID: 69606)
+[2025-11-03 09:04:02] INFO: Application closed: Process 69604 (ran for 0.0s)
+[2025-11-03 09:04:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:04] INFO: Detected untracked firejail: Firejail (PID: 69611)
+[2025-11-03 09:04:04] INFO: Application closed: Process 69612 (ran for 0.0s)
+[2025-11-03 09:04:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:06] INFO: Detected untracked firejail: Firejail (PID: 69619)
+[2025-11-03 09:04:06] INFO: Application closed: Process 69617 (ran for 0.0s)
+[2025-11-03 09:04:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:08] INFO: Detected untracked firejail: Firejail (PID: 69626)
+[2025-11-03 09:04:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:08] INFO: Application closed: Process 69624 (ran for 0.0s)
+[2025-11-03 09:04:10] INFO: Application closed: Process 69630 (ran for 0.0s)
+[2025-11-03 09:04:10] INFO: Application closed: Process 69632 (ran for 0.0s)
+[2025-11-03 09:04:12] INFO: Detected untracked firejail: Firejail (PID: 69636)
+[2025-11-03 09:04:12] INFO: Application closed: Process 69638 (ran for 0.0s)
+[2025-11-03 09:04:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:14] INFO: Detected untracked firejail: Firejail (PID: 69643)
+[2025-11-03 09:04:14] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:14] INFO: Application closed: Process 69645 (ran for 0.0s)
+[2025-11-03 09:04:16] INFO: Application closed: Process 69650 (ran for 0.0s)
+[2025-11-03 09:04:16] INFO: Application closed: Process 69652 (ran for 0.0s)
+[2025-11-03 09:04:18] INFO: Detected untracked firejail: Firejail (PID: 69656)
+[2025-11-03 09:04:18] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:18] INFO: Application closed: Process 69657 (ran for 0.0s)
+[2025-11-03 09:04:20] INFO: Application closed: Process 69664 (ran for 0.0s)
+[2025-11-03 09:04:20] INFO: Application closed: Process 69662 (ran for 0.0s)
+[2025-11-03 09:04:22] INFO: Detected untracked firejail: Firejail (PID: 69668)
+[2025-11-03 09:04:22] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:22] INFO: Application closed: Process 69670 (ran for 0.0s)
+[2025-11-03 09:04:24] INFO: Detected untracked firejail: Firejail (PID: 69674)
+[2025-11-03 09:04:24] INFO: Application closed: Process 69676 (ran for 0.0s)
+[2025-11-03 09:04:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:26] INFO: Detected untracked firejail: Firejail (PID: 69682)
+[2025-11-03 09:04:26] INFO: Application closed: Process 69680 (ran for 0.0s)
+[2025-11-03 09:04:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:28] INFO: Detected untracked firejail: Sandboxed Application (PID: 69688)
+[2025-11-03 09:04:28] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:04:28] INFO: Application closed: Process 69686 (ran for 0.0s)
+[2025-11-03 09:04:30] INFO: Detected untracked firejail: Firejail (PID: 69695)
+[2025-11-03 09:04:30] INFO: Application closed: Process 69693 (ran for 0.0s)
+[2025-11-03 09:04:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:32] INFO: Detected untracked firejail: Firejail (PID: 69699)
+[2025-11-03 09:04:32] INFO: Application closed: Process 69701 (ran for 0.0s)
+[2025-11-03 09:04:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:34] INFO: Detected untracked firejail: Firejail (PID: 69706)
+[2025-11-03 09:04:34] INFO: Application closed: Process 69708 (ran for 0.0s)
+[2025-11-03 09:04:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:36] INFO: Detected untracked firejail: Firejail (PID: 69714)
+[2025-11-03 09:04:36] INFO: Application closed: Process 69712 (ran for 0.0s)
+[2025-11-03 09:04:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:38] INFO: Detected untracked firejail: Firejail (PID: 69721)
+[2025-11-03 09:04:38] INFO: Application closed: Process 69719 (ran for 0.0s)
+[2025-11-03 09:04:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:40] INFO: Detected untracked firejail: Firejail (PID: 69727)
+[2025-11-03 09:04:40] INFO: Application closed: Process 69725 (ran for 0.0s)
+[2025-11-03 09:04:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:42] INFO: Detected untracked firejail: Firejail (PID: 69733)
+[2025-11-03 09:04:42] INFO: Application closed: Process 69731 (ran for 0.0s)
+[2025-11-03 09:04:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:44] INFO: Detected untracked firejail: Firejail (PID: 69739)
+[2025-11-03 09:04:44] INFO: Application closed: Process 69737 (ran for 0.0s)
+[2025-11-03 09:04:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:46] INFO: Detected untracked firejail: Firejail (PID: 69745)
+[2025-11-03 09:04:46] INFO: Application closed: Process 69743 (ran for 0.0s)
+[2025-11-03 09:04:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:48] INFO: Detected untracked firejail: Firejail (PID: 69749)
+[2025-11-03 09:04:48] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:48] INFO: Application closed: Process 69751 (ran for 0.0s)
+[2025-11-03 09:04:50] INFO: Detected untracked firejail: Firejail (PID: 69758)
+[2025-11-03 09:04:50] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:50] INFO: Application closed: Process 69756 (ran for 0.0s)
+[2025-11-03 09:04:52] INFO: Application closed: Process 69766 (ran for 0.0s)
+[2025-11-03 09:04:52] INFO: Application closed: Process 69764 (ran for 0.0s)
+[2025-11-03 09:04:54] INFO: Detected untracked firejail: Firejail (PID: 69772)
+[2025-11-03 09:04:54] INFO: Application closed: Process 69773 (ran for 0.0s)
+[2025-11-03 09:04:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:04:56] INFO: Detected untracked firejail: Firejail (PID: 69780)
+[2025-11-03 09:04:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:56] INFO: Application closed: Process 69778 (ran for 0.0s)
+[2025-11-03 09:04:58] INFO: Detected untracked firejail: Firejail (PID: 69784)
+[2025-11-03 09:04:58] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:04:58] INFO: Application closed: Process 69785 (ran for 0.0s)
+[2025-11-03 09:05:00] INFO: Detected untracked firejail: Firejail (PID: 69795)
+[2025-11-03 09:05:00] INFO: Application closed: Process 69793 (ran for 0.0s)
+[2025-11-03 09:05:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:02] INFO: Detected untracked firejail: Firejail (PID: 69801)
+[2025-11-03 09:05:02] INFO: Application closed: Process 69799 (ran for 0.0s)
+[2025-11-03 09:05:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:04] INFO: Application closed: Process 69807 (ran for 0.0s)
+[2025-11-03 09:05:04] INFO: Application closed: Process 69809 (ran for 0.0s)
+[2025-11-03 09:05:06] INFO: Detected untracked firejail: Firejail (PID: 69816)
+[2025-11-03 09:05:06] INFO: Application closed: Process 69817 (ran for 0.0s)
+[2025-11-03 09:05:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:08] INFO: Detected untracked firejail: Firejail (PID: 69823)
+[2025-11-03 09:05:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:05:08] INFO: Application closed: Process 69825 (ran for 0.0s)
+[2025-11-03 09:05:10] INFO: Detected untracked firejail: Firejail (PID: 69830)
+[2025-11-03 09:05:10] INFO: Application closed: Process 69829 (ran for 0.0s)
+[2025-11-03 09:05:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:12] INFO: Detected untracked firejail: Firejail (PID: 69837)
+[2025-11-03 09:05:12] INFO: Application closed: Process 69835 (ran for 0.0s)
+[2025-11-03 09:05:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:14] INFO: Detected untracked firejail: Firejail (PID: 69843)
+[2025-11-03 09:05:14] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:05:14] INFO: Application closed: Process 69841 (ran for 0.0s)
+[2025-11-03 09:05:16] INFO: Detected untracked firejail: Firejail (PID: 69851)
+[2025-11-03 09:05:16] INFO: Application closed: Process 69849 (ran for 0.0s)
+[2025-11-03 09:05:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:18] INFO: Detected untracked firejail: Firejail (PID: 69857)
+[2025-11-03 09:05:18] INFO: Application closed: Process 69855 (ran for 0.0s)
+[2025-11-03 09:05:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:20] INFO: Detected untracked firejail: Firejail (PID: 69863)
+[2025-11-03 09:05:20] INFO: Application closed: Process 69861 (ran for 0.0s)
+[2025-11-03 09:05:20] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:05:22] INFO: Detected untracked firejail: Firejail (PID: 69869)
+[2025-11-03 09:05:22] INFO: Application closed: Process 69867 (ran for 0.0s)
+[2025-11-03 09:05:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:24] INFO: Detected untracked firejail: Firejail (PID: 69873)
+[2025-11-03 09:05:24] INFO: Application closed: Process 69875 (ran for 0.0s)
+[2025-11-03 09:05:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:26] INFO: Detected untracked firejail: Sandboxed Application (PID: 69879)
+[2025-11-03 09:05:26] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:05:26] INFO: Application closed: Process 69881 (ran for 0.0s)
+[2025-11-03 09:05:28] INFO: Application closed: Process 69885 (ran for 0.0s)
+[2025-11-03 09:05:28] INFO: Application closed: Process 69887 (ran for 0.0s)
+[2025-11-03 09:05:30] INFO: Detected untracked firejail: Sandboxed Application (PID: 69893)
+[2025-11-03 09:05:30] INFO: Application closed: Process 69891 (ran for 0.0s)
+[2025-11-03 09:05:30] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:05:32] INFO: Detected untracked firejail: Firejail (PID: 69898)
+[2025-11-03 09:05:32] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:05:32] INFO: Application closed: Process 69900 (ran for 0.0s)
+[2025-11-03 09:05:34] INFO: Application closed: Process 69905 (ran for 0.0s)
+[2025-11-03 09:05:34] INFO: Application closed: Process 69907 (ran for 0.0s)
+[2025-11-03 09:05:36] INFO: Application closed: Process 69911 (ran for 0.0s)
+[2025-11-03 09:05:36] INFO: Application closed: Process 69913 (ran for 0.0s)
+[2025-11-03 09:05:38] INFO: Detected untracked firejail: Firejail (PID: 69919)
+[2025-11-03 09:05:38] INFO: Application closed: Process 69917 (ran for 0.0s)
+[2025-11-03 09:05:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:40] INFO: Detected untracked firejail: Firejail (PID: 69925)
+[2025-11-03 09:05:40] INFO: Application closed: Process 69923 (ran for 0.0s)
+[2025-11-03 09:05:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:42] INFO: Detected untracked firejail: Firejail (PID: 69931)
+[2025-11-03 09:05:42] INFO: Application closed: Process 69929 (ran for 0.0s)
+[2025-11-03 09:05:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:44] INFO: Detected untracked firejail: Firejail (PID: 69937)
+[2025-11-03 09:05:44] INFO: Application closed: Process 69935 (ran for 0.0s)
+[2025-11-03 09:05:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:46] INFO: Detected untracked firejail: Firejail (PID: 69943)
+[2025-11-03 09:05:46] INFO: Application closed: Process 69941 (ran for 0.0s)
+[2025-11-03 09:05:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:48] INFO: Application closed: Process 69947 (ran for 0.0s)
+[2025-11-03 09:05:48] INFO: Application closed: Process 69949 (ran for 0.0s)
+[2025-11-03 09:05:50] INFO: Detected untracked firejail: Firejail (PID: 69956)
+[2025-11-03 09:05:50] INFO: Application closed: Process 69954 (ran for 0.0s)
+[2025-11-03 09:05:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:52] INFO: Detected untracked firejail: Sandboxed Application (PID: 69965)
+[2025-11-03 09:05:52] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:05:52] INFO: Application closed: Process 69963 (ran for 0.0s)
+[2025-11-03 09:05:54] INFO: Detected untracked firejail: Firejail (PID: 69975)
+[2025-11-03 09:05:54] INFO: Application closed: Process 69973 (ran for 0.0s)
+[2025-11-03 09:05:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:05:56] INFO: Detected untracked firejail: Firejail (PID: 69981)
+[2025-11-03 09:05:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:05:56] INFO: Application closed: Process 69979 (ran for 0.0s)
+[2025-11-03 09:05:58] INFO: Detected untracked firejail: Firejail (PID: 69985)
+[2025-11-03 09:05:58] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:05:58] INFO: Application closed: Process 69986 (ran for 0.0s)
+[2025-11-03 09:06:00] INFO: Detected untracked firejail: Firejail (PID: 69994)
+[2025-11-03 09:06:00] INFO: Application closed: Process 69992 (ran for 0.0s)
+[2025-11-03 09:06:00] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:02] INFO: Detected untracked firejail: Firejail (PID: 70000)
+[2025-11-03 09:06:02] INFO: Application closed: Process 69998 (ran for 0.0s)
+[2025-11-03 09:06:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:04] INFO: Detected untracked firejail: Firejail (PID: 70007)
+[2025-11-03 09:06:04] INFO: Application closed: Process 70005 (ran for 0.0s)
+[2025-11-03 09:06:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:06] INFO: Detected untracked firejail: Firejail (PID: 70013)
+[2025-11-03 09:06:06] INFO: Application closed: Process 70011 (ran for 0.0s)
+[2025-11-03 09:06:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:08] INFO: Detected untracked firejail: Firejail (PID: 70021)
+[2025-11-03 09:06:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:08] INFO: Application closed: Process 70022 (ran for 0.0s)
+[2025-11-03 09:06:10] INFO: Detected untracked firejail: Firejail (PID: 70029)
+[2025-11-03 09:06:10] INFO: Application closed: Process 70027 (ran for 0.0s)
+[2025-11-03 09:06:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:12] INFO: Detected untracked firejail: Firejail (PID: 70035)
+[2025-11-03 09:06:12] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:12] INFO: Application closed: Process 70033 (ran for 0.0s)
+[2025-11-03 09:06:14] INFO: Application closed: Process 70040 (ran for 0.0s)
+[2025-11-03 09:06:14] INFO: Application closed: Process 70039 (ran for 0.0s)
+[2025-11-03 09:06:16] INFO: Application closed: Process 70047 (ran for 0.0s)
+[2025-11-03 09:06:16] INFO: Application closed: Process 70046 (ran for 0.0s)
+[2025-11-03 09:06:18] INFO: Detected untracked firejail: Firejail (PID: 70056)
+[2025-11-03 09:06:18] INFO: Application closed: Process 70054 (ran for 0.0s)
+[2025-11-03 09:06:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:20] INFO: Detected untracked firejail: Firejail (PID: 70062)
+[2025-11-03 09:06:20] INFO: Application closed: Process 70060 (ran for 0.0s)
+[2025-11-03 09:06:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:22] INFO: Detected untracked firejail: Firejail (PID: 70068)
+[2025-11-03 09:06:22] INFO: Application closed: Process 70066 (ran for 0.0s)
+[2025-11-03 09:06:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:24] INFO: Detected untracked firejail: Firejail (PID: 70074)
+[2025-11-03 09:06:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:24] INFO: Application closed: Process 70072 (ran for 0.0s)
+[2025-11-03 09:06:26] INFO: Detected untracked firejail: Firejail (PID: 70080)
+[2025-11-03 09:06:26] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:26] INFO: Application closed: Process 70078 (ran for 0.0s)
+[2025-11-03 09:06:28] INFO: Detected untracked firejail: Firejail (PID: 70086)
+[2025-11-03 09:06:28] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:28] INFO: Application closed: Process 70084 (ran for 0.0s)
+[2025-11-03 09:06:30] INFO: Detected untracked firejail: Firejail (PID: 70092)
+[2025-11-03 09:06:30] INFO: Application closed: Process 70090 (ran for 0.0s)
+[2025-11-03 09:06:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:32] INFO: Detected untracked firejail: Firejail (PID: 70098)
+[2025-11-03 09:06:32] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:32] INFO: Application closed: Process 70096 (ran for 0.0s)
+[2025-11-03 09:06:34] INFO: Detected untracked firejail: Firejail (PID: 70105)
+[2025-11-03 09:06:34] INFO: Application closed: Process 70103 (ran for 0.0s)
+[2025-11-03 09:06:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:36] INFO: Detected untracked firejail: Firejail (PID: 70109)
+[2025-11-03 09:06:36] INFO: Application closed: Process 70111 (ran for 0.0s)
+[2025-11-03 09:06:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:38] INFO: Detected untracked firejail: Firejail (PID: 70116)
+[2025-11-03 09:06:38] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:38] INFO: Application closed: Process 70115 (ran for 0.0s)
+[2025-11-03 09:06:40] INFO: Detected untracked firejail: Firejail (PID: 70123)
+[2025-11-03 09:06:40] INFO: Application closed: Process 70121 (ran for 0.0s)
+[2025-11-03 09:06:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:42] INFO: Detected untracked firejail: Firejail (PID: 70129)
+[2025-11-03 09:06:42] INFO: Application closed: Process 70127 (ran for 0.0s)
+[2025-11-03 09:06:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:44] INFO: Detected untracked firejail: Firejail (PID: 70135)
+[2025-11-03 09:06:44] INFO: Application closed: Process 70133 (ran for 0.0s)
+[2025-11-03 09:06:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:46] INFO: Detected untracked firejail: Firejail (PID: 70140)
+[2025-11-03 09:06:46] INFO: Application closed: Process 70139 (ran for 0.0s)
+[2025-11-03 09:06:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:48] INFO: Detected untracked firejail: Firejail (PID: 70145)
+[2025-11-03 09:06:48] INFO: Application closed: Process 70147 (ran for 0.0s)
+[2025-11-03 09:06:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:50] INFO: Detected untracked firejail: Firejail (PID: 70152)
+[2025-11-03 09:06:50] INFO: Application closed: Process 70154 (ran for 0.0s)
+[2025-11-03 09:06:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:52] INFO: Detected untracked firejail: Firejail (PID: 70162)
+[2025-11-03 09:06:52] INFO: Application closed: Process 70160 (ran for 0.0s)
+[2025-11-03 09:06:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:06:54] INFO: Application closed: Process 70168 (ran for 0.0s)
+[2025-11-03 09:06:54] INFO: Application closed: Process 70169 (ran for 0.0s)
+[2025-11-03 09:06:56] INFO: Detected untracked firejail: Firejail (PID: 70176)
+[2025-11-03 09:06:56] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:06:56] INFO: Application closed: Process 70174 (ran for 0.0s)
+[2025-11-03 09:06:58] INFO: Detected untracked firejail: Firejail (PID: 70182)
+[2025-11-03 09:06:58] INFO: Application closed: Process 70180 (ran for 0.0s)
+[2025-11-03 09:06:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:00] INFO: Detected untracked firejail: Sandboxed Application (PID: 70189)
+[2025-11-03 09:07:00] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:07:00] INFO: Application closed: Process 70187 (ran for 0.0s)
+[2025-11-03 09:07:02] INFO: Detected untracked firejail: Firejail (PID: 70197)
+[2025-11-03 09:07:02] INFO: Application closed: Process 70195 (ran for 0.0s)
+[2025-11-03 09:07:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:04] INFO: Detected untracked firejail: Firejail (PID: 70204)
+[2025-11-03 09:07:04] INFO: Application closed: Process 70202 (ran for 0.0s)
+[2025-11-03 09:07:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:06] INFO: Detected untracked firejail: Firejail (PID: 70210)
+[2025-11-03 09:07:06] INFO: Application closed: Process 70208 (ran for 0.0s)
+[2025-11-03 09:07:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:08] INFO: Detected untracked firejail: Firejail (PID: 70217)
+[2025-11-03 09:07:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:08] INFO: Application closed: Process 70215 (ran for 0.0s)
+[2025-11-03 09:07:10] INFO: Detected untracked firejail: Firejail (PID: 70223)
+[2025-11-03 09:07:10] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:10] INFO: Application closed: Process 70221 (ran for 0.0s)
+[2025-11-03 09:07:12] INFO: Detected untracked firejail: Firejail (PID: 70229)
+[2025-11-03 09:07:12] INFO: Application closed: Process 70227 (ran for 0.0s)
+[2025-11-03 09:07:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:14] INFO: Detected untracked firejail: Firejail (PID: 70235)
+[2025-11-03 09:07:14] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:14] INFO: Application closed: Process 70233 (ran for 0.0s)
+[2025-11-03 09:07:16] INFO: Application closed: Process 70240 (ran for 0.0s)
+[2025-11-03 09:07:16] INFO: Application closed: Process 70241 (ran for 0.0s)
+[2025-11-03 09:07:18] INFO: Detected untracked firejail: Firejail (PID: 70249)
+[2025-11-03 09:07:18] INFO: Application closed: Process 70247 (ran for 0.0s)
+[2025-11-03 09:07:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:20] INFO: Detected untracked firejail: Firejail (PID: 70254)
+[2025-11-03 09:07:20] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:20] INFO: Application closed: Process 70253 (ran for 0.0s)
+[2025-11-03 09:07:22] INFO: Detected untracked firejail: Firejail (PID: 70261)
+[2025-11-03 09:07:22] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:22] INFO: Application closed: Process 70259 (ran for 0.0s)
+[2025-11-03 09:07:24] INFO: Detected untracked firejail: Firejail (PID: 70267)
+[2025-11-03 09:07:24] INFO: Application closed: Process 70265 (ran for 0.0s)
+[2025-11-03 09:07:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:26] INFO: Detected untracked firejail: Firejail (PID: 70271)
+[2025-11-03 09:07:26] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:26] INFO: Application closed: Process 70272 (ran for 0.0s)
+[2025-11-03 09:07:28] INFO: Detected untracked firejail: Firejail (PID: 70279)
+[2025-11-03 09:07:28] INFO: Application closed: Process 70277 (ran for 0.0s)
+[2025-11-03 09:07:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:30] INFO: Detected untracked firejail: Firejail (PID: 70285)
+[2025-11-03 09:07:30] INFO: Application closed: Process 70283 (ran for 0.0s)
+[2025-11-03 09:07:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:32] INFO: Detected untracked firejail: Sandboxed Application (PID: 70291)
+[2025-11-03 09:07:32] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:07:32] INFO: Application closed: Process 70289 (ran for 0.0s)
+[2025-11-03 09:07:34] INFO: Detected untracked firejail: Firejail (PID: 70298)
+[2025-11-03 09:07:34] INFO: Application closed: Process 70296 (ran for 0.0s)
+[2025-11-03 09:07:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:36] INFO: Detected untracked firejail: Firejail (PID: 70304)
+[2025-11-03 09:07:36] INFO: Application closed: Process 70302 (ran for 0.0s)
+[2025-11-03 09:07:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:38] INFO: Detected untracked firejail: Firejail (PID: 70310)
+[2025-11-03 09:07:38] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:38] INFO: Application closed: Process 70308 (ran for 0.0s)
+[2025-11-03 09:07:40] INFO: Detected untracked firejail: Firejail (PID: 70316)
+[2025-11-03 09:07:40] INFO: Application closed: Process 70314 (ran for 0.0s)
+[2025-11-03 09:07:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:42] INFO: Detected untracked firejail: Firejail (PID: 70322)
+[2025-11-03 09:07:42] INFO: Application closed: Process 70320 (ran for 0.0s)
+[2025-11-03 09:07:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:44] INFO: Detected untracked firejail: Firejail (PID: 70328)
+[2025-11-03 09:07:44] INFO: Application closed: Process 70326 (ran for 0.0s)
+[2025-11-03 09:07:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:46] INFO: Detected untracked firejail: Firejail (PID: 70334)
+[2025-11-03 09:07:46] INFO: Application closed: Process 70332 (ran for 0.0s)
+[2025-11-03 09:07:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:48] INFO: Detected untracked firejail: Firejail (PID: 70340)
+[2025-11-03 09:07:48] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:07:48] INFO: Application closed: Process 70338 (ran for 0.0s)
+[2025-11-03 09:07:50] INFO: Detected untracked firejail: Firejail (PID: 70347)
+[2025-11-03 09:07:50] INFO: Application closed: Process 70345 (ran for 0.0s)
+[2025-11-03 09:07:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:52] INFO: Detected untracked firejail: Firejail (PID: 70355)
+[2025-11-03 09:07:52] INFO: Application closed: Process 70353 (ran for 0.0s)
+[2025-11-03 09:07:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:54] INFO: Detected untracked firejail: Firejail (PID: 70363)
+[2025-11-03 09:07:54] INFO: Application closed: Process 70361 (ran for 0.0s)
+[2025-11-03 09:07:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:56] INFO: Detected untracked firejail: Firejail (PID: 70369)
+[2025-11-03 09:07:56] INFO: Application closed: Process 70367 (ran for 0.0s)
+[2025-11-03 09:07:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:07:58] INFO: Detected untracked firejail: Firejail (PID: 70375)
+[2025-11-03 09:07:58] INFO: Application closed: Process 70373 (ran for 0.0s)
+[2025-11-03 09:07:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:00] INFO: Detected untracked firejail: Firejail (PID: 70382)
+[2025-11-03 09:08:00] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:08:00] INFO: Application closed: Process 70380 (ran for 0.0s)
+[2025-11-03 09:08:02] INFO: Detected untracked firejail: Firejail (PID: 70390)
+[2025-11-03 09:08:02] INFO: Application closed: Process 70388 (ran for 0.0s)
+[2025-11-03 09:08:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:04] INFO: Detected untracked firejail: Firejail (PID: 70397)
+[2025-11-03 09:08:04] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:08:04] INFO: Application closed: Process 70395 (ran for 0.0s)
+[2025-11-03 09:08:06] INFO: Detected untracked firejail: Firejail (PID: 70403)
+[2025-11-03 09:08:06] INFO: Application closed: Process 70401 (ran for 0.0s)
+[2025-11-03 09:08:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:08] INFO: Detected untracked firejail: Firejail (PID: 70410)
+[2025-11-03 09:08:08] INFO: Application closed: Process 70408 (ran for 0.0s)
+[2025-11-03 09:08:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:10] INFO: Detected untracked firejail: Firejail (PID: 70416)
+[2025-11-03 09:08:10] INFO: Application closed: Process 70414 (ran for 0.0s)
+[2025-11-03 09:08:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:12] INFO: Detected untracked firejail: Firejail (PID: 70422)
+[2025-11-03 09:08:12] INFO: Application closed: Process 70420 (ran for 0.0s)
+[2025-11-03 09:08:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:14] INFO: Detected untracked firejail: Sandboxed Application (PID: 70429)
+[2025-11-03 09:08:14] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:08:14] INFO: Application closed: Process 70427 (ran for 0.0s)
+[2025-11-03 09:08:16] INFO: Detected untracked firejail: Firejail (PID: 70436)
+[2025-11-03 09:08:16] INFO: Application closed: Process 70434 (ran for 0.0s)
+[2025-11-03 09:08:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:18] INFO: Detected untracked firejail: Firejail (PID: 70443)
+[2025-11-03 09:08:18] INFO: Application closed: Process 70441 (ran for 0.0s)
+[2025-11-03 09:08:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:20] INFO: Detected untracked firejail: Firejail (PID: 70449)
+[2025-11-03 09:08:20] INFO: Application closed: Process 70447 (ran for 0.0s)
+[2025-11-03 09:08:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:22] INFO: Application closed: Process 70455 (ran for 0.0s)
+[2025-11-03 09:08:22] INFO: Application closed: Process 70453 (ran for 0.0s)
+[2025-11-03 09:08:24] INFO: Detected untracked firejail: Firejail (PID: 70461)
+[2025-11-03 09:08:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:08:24] INFO: Application closed: Process 70459 (ran for 0.0s)
+[2025-11-03 09:08:26] INFO: Detected untracked firejail: Firejail (PID: 70470)
+[2025-11-03 09:08:26] INFO: Application closed: Process 70468 (ran for 0.0s)
+[2025-11-03 09:08:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:28] INFO: Application closed: Process 70476 (ran for 0.0s)
+[2025-11-03 09:08:28] INFO: Application closed: Process 70477 (ran for 0.0s)
+[2025-11-03 09:08:30] INFO: Detected untracked firejail: Sandboxed Application (PID: 70483)
+[2025-11-03 09:08:30] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:08:30] INFO: Application closed: Process 70482 (ran for 0.0s)
+[2025-11-03 09:08:32] INFO: Detected untracked firejail: Firejail (PID: 70514)
+[2025-11-03 09:08:32] INFO: Application closed: Process 70512 (ran for 0.0s)
+[2025-11-03 09:08:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:34] INFO: Detected untracked firejail: Firejail (PID: 70593)
+[2025-11-03 09:08:34] INFO: Application closed: Process 70591 (ran for 0.0s)
+[2025-11-03 09:08:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:36] INFO: Detected untracked firejail: Firejail (PID: 70615)
+[2025-11-03 09:08:36] INFO: Application closed: Process 70613 (ran for 0.0s)
+[2025-11-03 09:08:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:38] INFO: Application closed: Process 70622 (ran for 0.0s)
+[2025-11-03 09:08:38] INFO: Application closed: Process 70620 (ran for 0.0s)
+[2025-11-03 09:08:40] INFO: Detected untracked firejail: Firejail (PID: 70628)
+[2025-11-03 09:08:40] INFO: Application closed: Process 70626 (ran for 0.0s)
+[2025-11-03 09:08:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:42] INFO: Detected untracked firejail: Firejail (PID: 70634)
+[2025-11-03 09:08:42] INFO: Application closed: Process 70632 (ran for 0.0s)
+[2025-11-03 09:08:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:44] INFO: Detected untracked firejail: Firejail (PID: 70639)
+[2025-11-03 09:08:44] INFO: Application closed: Process 70640 (ran for 0.0s)
+[2025-11-03 09:08:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:46] INFO: Detected untracked firejail: Firejail (PID: 70645)
+[2025-11-03 09:08:46] INFO: Application closed: Process 70646 (ran for 0.0s)
+[2025-11-03 09:08:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:48] INFO: Detected untracked firejail: Firejail (PID: 70651)
+[2025-11-03 09:08:48] INFO: Application closed: Process 70652 (ran for 0.0s)
+[2025-11-03 09:08:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:50] INFO: Detected untracked firejail: Firejail (PID: 70698)
+[2025-11-03 09:08:50] INFO: Application closed: Process 70700 (ran for 0.0s)
+[2025-11-03 09:08:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:52] INFO: Detected untracked firejail: Firejail (PID: 70710)
+[2025-11-03 09:08:52] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:08:52] INFO: Application closed: Process 70708 (ran for 0.0s)
+[2025-11-03 09:08:54] INFO: Detected untracked firejail: Firejail (PID: 70716)
+[2025-11-03 09:08:54] INFO: Application closed: Process 70715 (ran for 0.0s)
+[2025-11-03 09:08:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:56] INFO: Detected untracked firejail: Firejail (PID: 70722)
+[2025-11-03 09:08:56] INFO: Application closed: Process 70721 (ran for 0.0s)
+[2025-11-03 09:08:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:08:58] INFO: Detected untracked firejail: Firejail (PID: 70729)
+[2025-11-03 09:08:58] INFO: Application closed: Process 70727 (ran for 0.0s)
+[2025-11-03 09:08:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:00] INFO: Detected untracked firejail: Firejail (PID: 70736)
+[2025-11-03 09:09:00] INFO: Application closed: Process 70734 (ran for 0.0s)
+[2025-11-03 09:09:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:02] INFO: Detected untracked firejail: Firejail (PID: 70740)
+[2025-11-03 09:09:02] INFO: Application closed: Process 70742 (ran for 0.0s)
+[2025-11-03 09:09:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:04] INFO: Detected untracked firejail: Firejail (PID: 70749)
+[2025-11-03 09:09:04] INFO: Application closed: Process 70747 (ran for 0.0s)
+[2025-11-03 09:09:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:06] INFO: Detected untracked firejail: Firejail (PID: 70753)
+[2025-11-03 09:09:06] INFO: Application closed: Process 70755 (ran for 0.0s)
+[2025-11-03 09:09:07] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:08] INFO: Detected untracked firejail: Firejail (PID: 70760)
+[2025-11-03 09:09:08] INFO: Application closed: Process 70762 (ran for 0.0s)
+[2025-11-03 09:09:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:10] INFO: Application closed: Process 70766 (ran for 0.0s)
+[2025-11-03 09:09:10] INFO: Application closed: Process 70768 (ran for 0.0s)
+[2025-11-03 09:09:12] INFO: Detected untracked firejail: Firejail (PID: 70772)
+[2025-11-03 09:09:12] INFO: Application closed: Process 70774 (ran for 0.0s)
+[2025-11-03 09:09:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:14] INFO: Detected untracked firejail: Firejail (PID: 70781)
+[2025-11-03 09:09:14] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:09:14] INFO: Application closed: Process 70779 (ran for 0.0s)
+[2025-11-03 09:09:16] INFO: Detected untracked firejail: Firejail (PID: 70786)
+[2025-11-03 09:09:16] INFO: Application closed: Process 70788 (ran for 0.0s)
+[2025-11-03 09:09:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:18] INFO: Detected untracked firejail: Firejail (PID: 70795)
+[2025-11-03 09:09:18] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:09:18] INFO: Application closed: Process 70793 (ran for 0.0s)
+[2025-11-03 09:09:20] INFO: Detected untracked firejail: Firejail (PID: 70799)
+[2025-11-03 09:09:20] INFO: Application closed: Process 70801 (ran for 0.0s)
+[2025-11-03 09:09:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:22] INFO: Detected untracked firejail: Firejail (PID: 70807)
+[2025-11-03 09:09:22] INFO: Application closed: Process 70805 (ran for 0.0s)
+[2025-11-03 09:09:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:24] INFO: Detected untracked firejail: Firejail (PID: 70811)
+[2025-11-03 09:09:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:09:24] INFO: Application closed: Process 70813 (ran for 0.0s)
+[2025-11-03 09:09:26] INFO: Detected untracked firejail: Firejail (PID: 70819)
+[2025-11-03 09:09:26] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:09:26] INFO: Application closed: Process 70817 (ran for 0.0s)
+[2025-11-03 09:09:28] INFO: Detected untracked firejail: Firejail (PID: 70825)
+[2025-11-03 09:09:28] INFO: Application closed: Process 70823 (ran for 0.0s)
+[2025-11-03 09:09:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:30] INFO: Detected untracked firejail: Firejail (PID: 70831)
+[2025-11-03 09:09:30] INFO: Application closed: Process 70829 (ran for 0.0s)
+[2025-11-03 09:09:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:32] INFO: Detected untracked firejail: Firejail (PID: 70835)
+[2025-11-03 09:09:32] INFO: Application closed: Process 70837 (ran for 0.0s)
+[2025-11-03 09:09:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:34] INFO: Application closed: Process 70846 (ran for 0.0s)
+[2025-11-03 09:09:34] INFO: Application closed: Process 70844 (ran for 0.0s)
+[2025-11-03 09:09:36] INFO: Detected untracked firejail: Firejail (PID: 70852)
+[2025-11-03 09:09:36] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:09:36] INFO: Application closed: Process 70850 (ran for 0.0s)
+[2025-11-03 09:09:38] INFO: Detected untracked firejail: Firejail (PID: 70859)
+[2025-11-03 09:09:38] INFO: Application closed: Process 70857 (ran for 0.0s)
+[2025-11-03 09:09:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:40] INFO: Detected untracked firejail: Firejail (PID: 70865)
+[2025-11-03 09:09:40] INFO: Application closed: Process 70863 (ran for 0.0s)
+[2025-11-03 09:09:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:42] INFO: Detected untracked firejail: Firejail (PID: 70870)
+[2025-11-03 09:09:42] INFO: Application closed: Process 70869 (ran for 0.0s)
+[2025-11-03 09:09:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:44] INFO: Detected untracked firejail: Firejail (PID: 70913)
+[2025-11-03 09:09:44] INFO: Application closed: Process 70914 (ran for 0.0s)
+[2025-11-03 09:09:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:46] INFO: Detected untracked firejail: Firejail (PID: 70921)
+[2025-11-03 09:09:46] INFO: Application closed: Process 70919 (ran for 0.0s)
+[2025-11-03 09:09:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:48] INFO: Detected untracked firejail: Firejail (PID: 70927)
+[2025-11-03 09:09:48] INFO: Application closed: Process 70925 (ran for 0.0s)
+[2025-11-03 09:09:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:09:50] INFO: Detected untracked firejail: Sandboxed Application (PID: 70934)
+[2025-11-03 09:09:50] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:09:50] INFO: Application closed: Process 70932 (ran for 0.0s)
+[2025-11-03 09:09:52] INFO: Application closed: Process 70941 (ran for 0.0s)
+[2025-11-03 09:09:52] INFO: Application closed: Process 70939 (ran for 0.0s)
+[2025-11-03 09:09:54] INFO: Detected untracked firejail: Firejail (PID: 70947)
+[2025-11-03 09:09:54] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:09:54] INFO: Application closed: Process 70949 (ran for 0.0s)
+[2025-11-03 09:09:56] INFO: Application closed: Process 70955 (ran for 0.0s)
+[2025-11-03 09:09:56] INFO: Application closed: Process 70953 (ran for 0.0s)
+[2025-11-03 09:09:58] INFO: Detected untracked firejail: Firejail (PID: 70961)
+[2025-11-03 09:09:58] INFO: Application closed: Process 70959 (ran for 0.0s)
+[2025-11-03 09:09:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:00] INFO: Detected untracked firejail: Firejail (PID: 70968)
+[2025-11-03 09:10:00] INFO: Application closed: Process 70966 (ran for 0.0s)
+[2025-11-03 09:10:01] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:02] INFO: Detected untracked firejail: Firejail (PID: 70974)
+[2025-11-03 09:10:02] INFO: Application closed: Process 70972 (ran for 0.0s)
+[2025-11-03 09:10:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:04] INFO: Detected untracked firejail: Firejail (PID: 70981)
+[2025-11-03 09:10:04] INFO: Application closed: Process 70979 (ran for 0.0s)
+[2025-11-03 09:10:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:06] INFO: Detected untracked firejail: Firejail (PID: 70985)
+[2025-11-03 09:10:06] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:10:06] INFO: Application closed: Process 70987 (ran for 0.0s)
+[2025-11-03 09:10:08] INFO: Detected untracked firejail: Firejail (PID: 70994)
+[2025-11-03 09:10:08] INFO: Application closed: Process 70992 (ran for 0.0s)
+[2025-11-03 09:10:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:10] INFO: Detected untracked firejail: Firejail (PID: 71000)
+[2025-11-03 09:10:10] INFO: Application closed: Process 70998 (ran for 0.0s)
+[2025-11-03 09:10:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:12] INFO: Detected untracked firejail: Firejail (PID: 71006)
+[2025-11-03 09:10:12] INFO: Application closed: Process 71004 (ran for 0.0s)
+[2025-11-03 09:10:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:14] INFO: Detected untracked firejail: Firejail (PID: 71017)
+[2025-11-03 09:10:14] INFO: Application closed: Process 71015 (ran for 0.0s)
+[2025-11-03 09:10:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:16] INFO: Detected untracked firejail: Firejail (PID: 71022)
+[2025-11-03 09:10:16] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:10:16] WARNING: Could not reload state: Expecting value: line 1 column 1 (char 0)
+[2025-11-03 09:10:16] INFO: Application closed: Process 71024 (ran for 0.0s)
+[2025-11-03 09:10:18] INFO: Detected untracked firejail: Firejail (PID: 71031)
+[2025-11-03 09:10:18] INFO: Application closed: Process 71029 (ran for 0.0s)
+[2025-11-03 09:10:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:20] INFO: Detected untracked firejail: Firejail (PID: 71046)
+[2025-11-03 09:10:20] INFO: Application closed: Process 71045 (ran for 0.0s)
+[2025-11-03 09:10:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:22] INFO: Detected untracked firejail: Sandboxed Application (PID: 71051)
+[2025-11-03 09:10:22] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:10:22] INFO: Application closed: Process 71053 (ran for 0.0s)
+[2025-11-03 09:10:24] INFO: Application closed: Process 71063 (ran for 0.0s)
+[2025-11-03 09:10:24] INFO: Application closed: Process 71064 (ran for 0.0s)
+[2025-11-03 09:10:26] INFO: Detected untracked firejail: Firejail (PID: 71071)
+[2025-11-03 09:10:26] INFO: Application closed: Process 71069 (ran for 0.0s)
+[2025-11-03 09:10:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:28] INFO: Detected untracked firejail: Firejail (PID: 71075)
+[2025-11-03 09:10:28] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:10:28] INFO: Application closed: Process 71077 (ran for 0.0s)
+[2025-11-03 09:10:30] INFO: Application closed: Process 71083 (ran for 0.0s)
+[2025-11-03 09:10:30] INFO: Application closed: Process 71081 (ran for 0.0s)
+[2025-11-03 09:10:32] INFO: Detected untracked firejail: Firejail (PID: 71089)
+[2025-11-03 09:10:32] INFO: Application closed: Process 71087 (ran for 0.0s)
+[2025-11-03 09:10:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:34] INFO: Detected untracked firejail: Firejail (PID: 71097)
+[2025-11-03 09:10:34] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:10:34] INFO: Application closed: Process 71098 (ran for 0.0s)
+[2025-11-03 09:10:36] INFO: Detected untracked firejail: Firejail (PID: 71104)
+[2025-11-03 09:10:36] INFO: Application closed: Process 71106 (ran for 0.0s)
+[2025-11-03 09:10:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:38] INFO: Detected untracked firejail: Firejail (PID: 71110)
+[2025-11-03 09:10:38] INFO: Application closed: Process 71112 (ran for 0.0s)
+[2025-11-03 09:10:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:40] INFO: Detected untracked firejail: Firejail (PID: 71117)
+[2025-11-03 09:10:40] INFO: Application closed: Process 71118 (ran for 0.0s)
+[2025-11-03 09:10:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:42] INFO: Detected untracked firejail: Firejail (PID: 71177)
+[2025-11-03 09:10:42] INFO: Application closed: Process 71175 (ran for 0.0s)
+[2025-11-03 09:10:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:44] INFO: Detected untracked firejail: Sandboxed Application (PID: 71214)
+[2025-11-03 09:10:44] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:10:44] INFO: Application closed: Process 71212 (ran for 0.0s)
+[2025-11-03 09:10:46] INFO: Detected untracked firejail: Firejail (PID: 71218)
+[2025-11-03 09:10:46] INFO: Application closed: Process 71220 (ran for 0.0s)
+[2025-11-03 09:10:46] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:10:48] INFO: Detected untracked firejail: Sandboxed Application (PID: 71224)
+[2025-11-03 09:10:48] INFO: Application closed: Process 71226 (ran for 0.0s)
+[2025-11-03 09:10:48] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:10:50] INFO: Application closed: Process 71232 (ran for 0.0s)
+[2025-11-03 09:10:50] INFO: Application closed: Process 71233 (ran for 0.0s)
+[2025-11-03 09:10:52] INFO: Detected untracked firejail: Firejail (PID: 71240)
+[2025-11-03 09:10:52] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:10:52] INFO: Application closed: Process 71242 (ran for 0.0s)
+[2025-11-03 09:10:54] INFO: Detected untracked firejail: Firejail (PID: 71252)
+[2025-11-03 09:10:54] INFO: Application closed: Process 71250 (ran for 0.0s)
+[2025-11-03 09:10:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:56] INFO: Detected untracked firejail: Firejail (PID: 71258)
+[2025-11-03 09:10:56] INFO: Application closed: Process 71256 (ran for 0.0s)
+[2025-11-03 09:10:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:10:58] INFO: Detected untracked firejail: Firejail (PID: 71264)
+[2025-11-03 09:10:58] INFO: Application closed: Process 71262 (ran for 0.0s)
+[2025-11-03 09:10:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:00] INFO: Detected untracked firejail: Firejail (PID: 71269)
+[2025-11-03 09:11:00] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:11:00] INFO: Application closed: Process 71271 (ran for 0.0s)
+[2025-11-03 09:11:02] INFO: Application closed: Process 71277 (ran for 0.0s)
+[2025-11-03 09:11:02] INFO: Detected untracked firejail: Sandboxed Application (PID: 71275)
+[2025-11-03 09:11:02] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:11:04] INFO: Detected untracked firejail: Sandboxed Application (PID: 71283)
+[2025-11-03 09:11:04] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:11:04] INFO: Application closed: Process 71282 (ran for 0.0s)
+[2025-11-03 09:11:06] INFO: Detected untracked firejail: Firejail (PID: 71290)
+[2025-11-03 09:11:06] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:11:06] INFO: Application closed: Process 71288 (ran for 0.0s)
+[2025-11-03 09:11:08] INFO: Detected untracked firejail: Firejail (PID: 71297)
+[2025-11-03 09:11:08] INFO: Application closed: Process 71295 (ran for 0.0s)
+[2025-11-03 09:11:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:10] INFO: Detected untracked firejail: Firejail (PID: 71303)
+[2025-11-03 09:11:10] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:11:10] INFO: Application closed: Process 71301 (ran for 0.0s)
+[2025-11-03 09:11:12] INFO: Detected untracked firejail: Sandboxed Application (PID: 71314)
+[2025-11-03 09:11:12] INFO: Application closed: Process 71313 (ran for 0.0s)
+[2025-11-03 09:11:12] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:11:14] INFO: Detected untracked firejail: Sandboxed Application (PID: 71357)
+[2025-11-03 09:11:14] INFO: Application closed: Process 71358 (ran for 0.0s)
+[2025-11-03 09:11:14] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 09:11:16] INFO: Detected untracked firejail: Firejail (PID: 71365)
+[2025-11-03 09:11:16] INFO: Application closed: Process 71364 (ran for 0.0s)
+[2025-11-03 09:11:17] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:18] INFO: Detected untracked firejail: Firejail (PID: 71372)
+[2025-11-03 09:11:18] INFO: Application closed: Process 71370 (ran for 0.0s)
+[2025-11-03 09:11:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:20] INFO: Detected untracked firejail: Firejail (PID: 71377)
+[2025-11-03 09:11:20] INFO: Application closed: Process 71378 (ran for 0.0s)
+[2025-11-03 09:11:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:22] INFO: Application closed: Process 71385 (ran for 0.0s)
+[2025-11-03 09:11:22] INFO: Application closed: Process 71383 (ran for 0.0s)
+[2025-11-03 09:11:24] INFO: Detected untracked firejail: Firejail (PID: 71391)
+[2025-11-03 09:11:24] INFO: Application closed: Process 71389 (ran for 0.0s)
+[2025-11-03 09:11:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:26] INFO: Detected untracked firejail: Firejail (PID: 71395)
+[2025-11-03 09:11:26] INFO: Application closed: Process 71397 (ran for 0.0s)
+[2025-11-03 09:11:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:28] INFO: Detected untracked firejail: Firejail (PID: 71403)
+[2025-11-03 09:11:28] INFO: Application closed: Process 71402 (ran for 0.0s)
+[2025-11-03 09:11:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 09:11:30] INFO: Detected untracked firejail: Firejail (PID: 71408)
+[2025-11-03 09:11:30] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 09:11:30] INFO: Application closed: Process 71409 (ran for 0.0s)
+[2025-11-03 09:11:32] INFO: Detected untracked firejail: Firejail (PID: 71416)
+[2025-11-03 09:11:32] INFO: Application closed: Process 71414 (ran for 0.0s)
+[2025-11-03 09:11:33] INFO: Application closed: Firejail (ran for 1.0s)
+
+================================================================================
+SESSION STARTED: 2025-11-03 10:44:46
+================================================================================
+
+[2025-11-03 10:44:46] INFO: Detected untracked firejail: Firejail (PID: 73623)
+[2025-11-03 10:44:46] INFO: Cleaning up dead process: 73623
+[2025-11-03 10:44:48] INFO: Detected untracked firejail: Firejail (PID: 73633)
+[2025-11-03 10:44:48] INFO: Application closed: Process 73631 (ran for 0.0s)
+[2025-11-03 10:44:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:44:50] INFO: Application closed: Process 73638 (ran for 0.0s)
+[2025-11-03 10:44:50] INFO: Application closed: Process 73637 (ran for 0.0s)
+[2025-11-03 10:44:52] INFO: Application closed: Process 73644 (ran for 0.0s)
+[2025-11-03 10:44:52] INFO: Application closed: Process 73645 (ran for 0.0s)
+[2025-11-03 10:44:54] INFO: Detected untracked firejail: Firejail (PID: 73652)
+[2025-11-03 10:44:54] INFO: Application closed: Process 73650 (ran for 0.0s)
+[2025-11-03 10:44:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:44:56] INFO: Detected untracked firejail: Firejail (PID: 73658)
+[2025-11-03 10:44:56] INFO: Application closed: Process 73656 (ran for 0.0s)
+[2025-11-03 10:44:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:44:58] INFO: Detected untracked firejail: Firejail (PID: 73666)
+[2025-11-03 10:44:58] INFO: Application closed: Process 73664 (ran for 0.0s)
+[2025-11-03 10:44:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:00] INFO: Detected untracked firejail: Firejail (PID: 73670)
+[2025-11-03 10:45:00] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:00] INFO: Application closed: Process 73671 (ran for 0.0s)
+[2025-11-03 10:45:02] INFO: Detected untracked firejail: Firejail (PID: 73679)
+[2025-11-03 10:45:02] INFO: Application closed: Process 73677 (ran for 0.0s)
+[2025-11-03 10:45:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:04] INFO: Application closed: Process 73683 (ran for 0.0s)
+[2025-11-03 10:45:04] INFO: Application closed: Process 73685 (ran for 0.0s)
+[2025-11-03 10:45:06] INFO: Detected untracked firejail: Firejail (PID: 73691)
+[2025-11-03 10:45:06] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:06] INFO: Application closed: Process 73689 (ran for 0.0s)
+[2025-11-03 10:45:08] INFO: Application closed: Process 73712 (ran for 0.0s)
+[2025-11-03 10:45:08] INFO: Application closed: Process 73711 (ran for 0.0s)
+[2025-11-03 10:45:10] INFO: Detected untracked firejail: Firejail (PID: 73740)
+[2025-11-03 10:45:10] INFO: Application closed: Process 73738 (ran for 0.0s)
+[2025-11-03 10:45:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:12] INFO: Detected untracked firejail: Firejail (PID: 73749)
+[2025-11-03 10:45:12] INFO: Application closed: Process 73747 (ran for 0.0s)
+[2025-11-03 10:45:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:14] INFO: Detected untracked firejail: Firejail (PID: 73757)
+[2025-11-03 10:45:14] INFO: Application closed: Process 73755 (ran for 0.0s)
+[2025-11-03 10:45:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:16] INFO: Application closed: Process 73761 (ran for 0.0s)
+[2025-11-03 10:45:16] INFO: Application closed: Process 73763 (ran for 0.0s)
+[2025-11-03 10:45:18] INFO: Detected untracked firejail: Firejail (PID: 73786)
+[2025-11-03 10:45:18] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:18] INFO: Application closed: Process 73787 (ran for 0.0s)
+[2025-11-03 10:45:20] INFO: Detected untracked firejail: Firejail (PID: 73810)
+[2025-11-03 10:45:20] INFO: Application closed: Process 73808 (ran for 0.0s)
+[2025-11-03 10:45:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:22] INFO: Application closed: Process 73814 (ran for 0.0s)
+[2025-11-03 10:45:22] INFO: Application closed: Process 73816 (ran for 0.0s)
+[2025-11-03 10:45:24] INFO: Detected untracked firejail: Firejail (PID: 73821)
+[2025-11-03 10:45:24] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:24] INFO: Application closed: Process 73823 (ran for 0.0s)
+[2025-11-03 10:45:26] INFO: Detected untracked firejail: Firejail (PID: 73903)
+[2025-11-03 10:45:26] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:26] INFO: Application closed: Process 73905 (ran for 0.0s)
+[2025-11-03 10:45:28] INFO: Detected untracked firejail: Firejail (PID: 73912)
+[2025-11-03 10:45:28] INFO: Application closed: Process 73910 (ran for 0.0s)
+[2025-11-03 10:45:29] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:30] INFO: Detected untracked firejail: Firejail (PID: 73918)
+[2025-11-03 10:45:30] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:30] INFO: Application closed: Process 73916 (ran for 0.0s)
+[2025-11-03 10:45:32] INFO: Detected untracked firejail: Firejail (PID: 73925)
+[2025-11-03 10:45:32] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:32] INFO: Application closed: Process 73923 (ran for 0.0s)
+[2025-11-03 10:45:34] INFO: Application closed: Process 73930 (ran for 0.0s)
+[2025-11-03 10:45:34] INFO: Application closed: Process 73932 (ran for 0.0s)
+[2025-11-03 10:45:36] INFO: Detected untracked firejail: Firejail (PID: 73936)
+[2025-11-03 10:45:36] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:36] INFO: Application closed: Process 73938 (ran for 0.0s)
+[2025-11-03 10:45:38] INFO: Detected untracked firejail: Firejail (PID: 73947)
+[2025-11-03 10:45:38] INFO: Application closed: Process 73945 (ran for 0.0s)
+[2025-11-03 10:45:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:40] INFO: Detected untracked firejail: Firejail (PID: 73955)
+[2025-11-03 10:45:40] INFO: Application closed: Process 73953 (ran for 0.0s)
+[2025-11-03 10:45:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:42] INFO: Detected untracked firejail: Firejail (PID: 73962)
+[2025-11-03 10:45:42] INFO: Application closed: Process 73960 (ran for 0.0s)
+[2025-11-03 10:45:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:44] INFO: Detected untracked firejail: Sandboxed Application (PID: 73968)
+[2025-11-03 10:45:44] INFO: Application closed: Process 73966 (ran for 0.0s)
+[2025-11-03 10:45:44] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:45:46] INFO: Detected untracked firejail: Firejail (PID: 73975)
+[2025-11-03 10:45:46] INFO: Application closed: Process 73973 (ran for 0.0s)
+[2025-11-03 10:45:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:48] INFO: Detected untracked firejail: Firejail (PID: 74047)
+[2025-11-03 10:45:48] INFO: Application closed: Process 74045 (ran for 0.0s)
+[2025-11-03 10:45:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:50] INFO: Detected untracked firejail: Firejail (PID: 74053)
+[2025-11-03 10:45:50] INFO: Application closed: Process 74051 (ran for 0.0s)
+[2025-11-03 10:45:51] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:52] INFO: Detected untracked firejail: Firejail (PID: 74063)
+[2025-11-03 10:45:52] INFO: Application closed: Process 74061 (ran for 0.0s)
+[2025-11-03 10:45:53] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:54] INFO: Detected untracked firejail: Firejail (PID: 74069)
+[2025-11-03 10:45:54] INFO: Application closed: Process 74067 (ran for 0.0s)
+[2025-11-03 10:45:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:45:56] INFO: Detected untracked firejail: Sandboxed Application (PID: 74073)
+[2025-11-03 10:45:56] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:45:56] INFO: Application closed: Process 74074 (ran for 0.0s)
+[2025-11-03 10:45:58] INFO: Detected untracked firejail: Firejail (PID: 74083)
+[2025-11-03 10:45:58] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:45:58] INFO: Application closed: Process 74081 (ran for 0.0s)
+[2025-11-03 10:46:00] INFO: Detected untracked firejail: Firejail (PID: 74089)
+[2025-11-03 10:46:00] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:46:00] WARNING: Could not reload state: Expecting value: line 1 column 1 (char 0)
+[2025-11-03 10:46:00] INFO: Application closed: Process 74087 (ran for 0.0s)
+[2025-11-03 10:46:02] INFO: Detected untracked firejail: Firejail (PID: 74095)
+[2025-11-03 10:46:02] INFO: Application closed: Process 74094 (ran for 0.0s)
+[2025-11-03 10:46:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:04] INFO: Detected untracked firejail: Firejail (PID: 74102)
+[2025-11-03 10:46:04] INFO: Application closed: Process 74100 (ran for 0.0s)
+[2025-11-03 10:46:05] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:06] INFO: Detected untracked firejail: Firejail (PID: 74107)
+[2025-11-03 10:46:06] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:46:06] INFO: Application closed: Process 74106 (ran for 0.0s)
+[2025-11-03 10:46:08] INFO: Detected untracked firejail: Firejail (PID: 74113)
+[2025-11-03 10:46:08] INFO: Application closed: Process 74112 (ran for 0.0s)
+[2025-11-03 10:46:09] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:10] INFO: Detected untracked firejail: Firejail (PID: 74119)
+[2025-11-03 10:46:10] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:46:10] INFO: Application closed: Process 74121 (ran for 0.0s)
+[2025-11-03 10:46:12] INFO: Detected untracked firejail: Firejail (PID: 74127)
+[2025-11-03 10:46:12] INFO: Application closed: Process 74125 (ran for 0.0s)
+[2025-11-03 10:46:13] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:14] INFO: Detected untracked firejail: Firejail (PID: 74134)
+[2025-11-03 10:46:14] INFO: Application closed: Process 74132 (ran for 0.0s)
+[2025-11-03 10:46:15] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:16] INFO: Detected untracked firejail: Sandboxed Application (PID: 74139)
+[2025-11-03 10:46:16] INFO: Application closed: Process 74138 (ran for 0.0s)
+[2025-11-03 10:46:16] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:46:18] INFO: Detected untracked firejail: Firejail (PID: 74147)
+[2025-11-03 10:46:18] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:46:18] INFO: Application closed: Process 74145 (ran for 0.0s)
+[2025-11-03 10:46:20] INFO: Detected untracked firejail: Firejail (PID: 74153)
+[2025-11-03 10:46:20] INFO: Application closed: Process 74151 (ran for 0.0s)
+[2025-11-03 10:46:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:22] INFO: Detected untracked firejail: Firejail (PID: 74159)
+[2025-11-03 10:46:22] INFO: Application closed: Process 74157 (ran for 0.0s)
+[2025-11-03 10:46:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:24] INFO: Detected untracked firejail: Firejail (PID: 74165)
+[2025-11-03 10:46:24] INFO: Application closed: Process 74163 (ran for 0.0s)
+[2025-11-03 10:46:25] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:26] INFO: Detected untracked firejail: Firejail (PID: 74172)
+[2025-11-03 10:46:26] INFO: Application closed: Process 74170 (ran for 0.0s)
+[2025-11-03 10:46:27] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:28] INFO: Detected untracked firejail: Sandboxed Application (PID: 74180)
+[2025-11-03 10:46:28] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:46:28] INFO: Application closed: Process 74178 (ran for 0.0s)
+[2025-11-03 10:46:30] INFO: Detected untracked firejail: Firejail (PID: 74188)
+[2025-11-03 10:46:30] INFO: Application closed: Process 74186 (ran for 0.0s)
+[2025-11-03 10:46:31] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:32] INFO: Detected untracked firejail: Firejail (PID: 74195)
+[2025-11-03 10:46:32] INFO: Application closed: Process 74193 (ran for 0.0s)
+[2025-11-03 10:46:33] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:34] INFO: Detected untracked firejail: Firejail (PID: 74202)
+[2025-11-03 10:46:34] INFO: Application closed: Process 74200 (ran for 0.0s)
+[2025-11-03 10:46:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:36] INFO: Detected untracked firejail: Firejail (PID: 74207)
+[2025-11-03 10:46:36] INFO: Application closed: Process 74206 (ran for 0.0s)
+[2025-11-03 10:46:37] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:38] INFO: Detected untracked firejail: Firejail (PID: 74215)
+[2025-11-03 10:46:38] INFO: Application closed: Process 74213 (ran for 0.0s)
+[2025-11-03 10:46:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:40] INFO: Application closed: Process 74220 (ran for 0.0s)
+[2025-11-03 10:46:40] INFO: Application closed: Process 74222 (ran for 0.0s)
+[2025-11-03 10:46:42] INFO: Detected untracked firejail: Firejail (PID: 74228)
+[2025-11-03 10:46:42] INFO: Application closed: Process 74226 (ran for 0.0s)
+[2025-11-03 10:46:43] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:44] INFO: Detected untracked firejail: Firejail (PID: 74234)
+[2025-11-03 10:46:44] INFO: Application closed: Process 74232 (ran for 0.0s)
+[2025-11-03 10:46:45] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:46] INFO: Detected untracked firejail: Firejail (PID: 74241)
+[2025-11-03 10:46:46] INFO: Application closed: Process 74239 (ran for 0.0s)
+[2025-11-03 10:46:47] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:48] INFO: Detected untracked firejail: Firejail (PID: 74247)
+[2025-11-03 10:46:48] INFO: Application closed: Process 74245 (ran for 0.0s)
+[2025-11-03 10:46:49] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:50] INFO: Application closed: Process 74251 (ran for 0.0s)
+[2025-11-03 10:46:50] INFO: Application closed: Process 74253 (ran for 0.0s)
+[2025-11-03 10:46:52] INFO: Detected untracked firejail: Firejail (PID: 74260)
+[2025-11-03 10:46:52] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:46:52] INFO: Application closed: Process 74258 (ran for 0.0s)
+[2025-11-03 10:46:54] INFO: Detected untracked firejail: Firejail (PID: 74266)
+[2025-11-03 10:46:54] INFO: Application closed: Process 74264 (ran for 0.0s)
+[2025-11-03 10:46:55] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:56] INFO: Detected untracked firejail: Firejail (PID: 74272)
+[2025-11-03 10:46:56] INFO: Application closed: Process 74270 (ran for 0.0s)
+[2025-11-03 10:46:57] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:46:58] INFO: Detected untracked firejail: Firejail (PID: 74280)
+[2025-11-03 10:46:58] INFO: Application closed: Process 74278 (ran for 0.0s)
+[2025-11-03 10:46:59] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:00] INFO: Application closed: Process 74292 (ran for 0.0s)
+[2025-11-03 10:47:00] INFO: Application closed: Process 74290 (ran for 0.0s)
+[2025-11-03 10:47:02] INFO: Detected untracked firejail: Firejail (PID: 74298)
+[2025-11-03 10:47:02] INFO: Application closed: Process 74296 (ran for 0.0s)
+[2025-11-03 10:47:03] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:04] INFO: Detected untracked firejail: Sandboxed Application (PID: 74305)
+[2025-11-03 10:47:04] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:47:04] INFO: Application closed: Process 74307 (ran for 0.0s)
+[2025-11-03 10:47:06] INFO: Application closed: Process 74311 (ran for 0.0s)
+[2025-11-03 10:47:06] INFO: Application closed: Process 74313 (ran for 0.0s)
+[2025-11-03 10:47:08] INFO: Detected untracked firejail: Firejail (PID: 74320)
+[2025-11-03 10:47:08] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:47:08] INFO: Application closed: Process 74318 (ran for 0.0s)
+[2025-11-03 10:47:10] INFO: Detected untracked firejail: Firejail (PID: 74327)
+[2025-11-03 10:47:10] INFO: Application closed: Process 74325 (ran for 0.0s)
+[2025-11-03 10:47:11] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:12] INFO: Application closed: Process 74331 (ran for 0.0s)
+[2025-11-03 10:47:12] INFO: Application closed: Process 74333 (ran for 0.0s)
+[2025-11-03 10:47:14] INFO: Application closed: Process 74337 (ran for 0.0s)
+[2025-11-03 10:47:14] INFO: Application closed: Process 74339 (ran for 0.0s)
+[2025-11-03 10:47:16] INFO: Application closed: Process 74345 (ran for 0.0s)
+[2025-11-03 10:47:16] INFO: Application closed: Process 74343 (ran for 0.0s)
+[2025-11-03 10:47:18] INFO: Detected untracked firejail: Firejail (PID: 74351)
+[2025-11-03 10:47:18] INFO: Application closed: Process 74349 (ran for 0.0s)
+[2025-11-03 10:47:19] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:20] INFO: Detected untracked firejail: Firejail (PID: 74357)
+[2025-11-03 10:47:20] INFO: Application closed: Process 74355 (ran for 0.0s)
+[2025-11-03 10:47:21] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:22] INFO: Detected untracked firejail: Firejail (PID: 74363)
+[2025-11-03 10:47:23] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:24] INFO: Application closed: Process 74367 (ran for 0.0s)
+[2025-11-03 10:47:24] INFO: Application closed: Process 74366 (ran for 0.0s)
+[2025-11-03 10:47:26] INFO: Detected untracked firejail: Firejail (PID: 74374)
+[2025-11-03 10:47:26] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:47:26] INFO: Application closed: Process 74373 (ran for 0.0s)
+[2025-11-03 10:47:28] INFO: Application closed: Process 74404 (ran for 0.0s)
+[2025-11-03 10:47:28] INFO: Application closed: Process 74405 (ran for 0.0s)
+[2025-11-03 10:47:30] INFO: Detected untracked firejail: Sandboxed Application (PID: 74413)
+[2025-11-03 10:47:30] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:47:30] INFO: Application closed: Process 74412 (ran for 0.0s)
+[2025-11-03 10:47:32] INFO: Detected untracked firejail: Sandboxed Application (PID: 74422)
+[2025-11-03 10:47:32] INFO: Application closed: Sandboxed Application (ran for 0.0s)
+[2025-11-03 10:47:32] INFO: Application closed: Process 74420 (ran for 0.0s)
+[2025-11-03 10:47:34] INFO: Detected untracked firejail: Firejail (PID: 74429)
+[2025-11-03 10:47:34] INFO: Application closed: Process 74428 (ran for 0.0s)
+[2025-11-03 10:47:35] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:36] INFO: Detected untracked firejail: Firejail (PID: 74438)
+[2025-11-03 10:47:36] INFO: Application closed: Firejail (ran for 0.0s)
+[2025-11-03 10:47:36] INFO: Application closed: Process 74439 (ran for 0.0s)
+[2025-11-03 10:47:38] INFO: Detected untracked firejail: Firejail (PID: 74447)
+[2025-11-03 10:47:38] INFO: Application closed: Process 74448 (ran for 0.0s)
+[2025-11-03 10:47:39] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:40] INFO: Detected untracked firejail: Firejail (PID: 74456)
+[2025-11-03 10:47:40] INFO: Application closed: Process 74455 (ran for 0.0s)
+[2025-11-03 10:47:41] INFO: Application closed: Firejail (ran for 1.0s)
+[2025-11-03 10:47:42] INFO: Application closed: Process 74461 (ran for 0.0s)
+[2025-11-03 10:47:42] INFO: Application closed: Process 74462 (ran for 0.0s)
+[2025-11-03 10:47:44] INFO: Application closed: Process 74468 (ran for 0.0s)
+[2025-11-03 10:47:44] INFO: Application closed: Process 74467 (ran for 0.0s)
+[2025-11-03 10:52:45] INFO: Preparing to launch: firefox
+[2025-11-03 10:52:45] INFO: Security policy: restrictive
+[2025-11-03 10:52:45] INFO: Resolved path: firefox
+[2025-11-03 10:52:45] INFO: Application: Firefox
+[2025-11-03 10:52:45] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 10:52:45] INFO: Created Firefox profile: invisvm-689be01e
+[2025-11-03 10:52:45] INFO: Firefox: Using unique profile invisvm-689be01e
+[2025-11-03 10:52:45] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo firefox -P invisvm-689be01e --new-instance --no-remote
+[2025-11-03 10:52:45] SUCCESS: Successfully launched Firefox (PID: 75091) in restrictive sandbox
+[2025-11-03 10:52:54] INFO: Application closed: Firefox (ran for 8.1s)
+[2025-11-03 10:52:56] INFO: Preparing to launch: vlc
+[2025-11-03 10:52:56] INFO: Security policy: restrictive
+[2025-11-03 10:52:56] INFO: Resolved path: vlc
+[2025-11-03 10:52:56] INFO: Application: Vlc
+[2025-11-03 10:52:56] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 10:52:56] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo vlc
+[2025-11-03 10:52:56] SUCCESS: Successfully launched Vlc (PID: 75623) in restrictive sandbox
+[2025-11-03 10:52:59] INFO: Application closed: Vlc (ran for 2.9s)
+[2025-11-03 10:53:22] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-03 10:53:22] INFO: Security policy: restrictive
+[2025-11-03 10:53:22] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-03 10:53:22] INFO: Application: File (zip_file.zip)
+[2025-11-03 10:53:22] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 10:53:22] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/zip_file.zip
+[2025-11-03 10:53:22] SUCCESS: Successfully launched File (zip_file.zip) (PID: 75703) in restrictive sandbox
+[2025-11-03 10:53:45] INFO: Sent shutdown to File (zip_file.zip) (PID: 75703)
+[2025-11-03 10:53:46] INFO: Sent SIGKILL to File (zip_file.zip) (PID: 75703)
+[2025-11-03 10:53:51] INFO: Preparing to launch: evince
+[2025-11-03 10:53:51] INFO: Security policy: restrictive
+[2025-11-03 10:53:51] INFO: Resolved path: evince
+[2025-11-03 10:53:51] INFO: Application: Evince
+[2025-11-03 10:53:51] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 10:53:51] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo evince
+[2025-11-03 10:53:51] SUCCESS: Successfully launched Evince (PID: 75778) in restrictive sandbox
+[2025-11-03 10:53:53] INFO: Preparing to launch: nomacs
+[2025-11-03 10:53:53] INFO: Security policy: restrictive
+[2025-11-03 10:53:53] INFO: Resolved path: nomacs
+[2025-11-03 10:53:53] INFO: Application: Nomacs
+[2025-11-03 10:53:53] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 10:53:53] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo nomacs
+[2025-11-03 10:53:53] SUCCESS: Successfully launched Nomacs (PID: 75832) in restrictive sandbox
+[2025-11-03 10:54:00] INFO: Sent shutdown to Evince (PID: 75778)
+[2025-11-03 10:54:00] INFO: Sent SIGKILL to Evince (PID: 75778)
+[2025-11-03 10:54:00] INFO: Application closed: Evince (ran for 9.5s)
+[2025-11-03 10:54:00] ERROR: Error monitoring process: 75778
+[2025-11-03 10:54:00] INFO: Sent shutdown to Nomacs (PID: 75832)
+[2025-11-03 10:54:01] INFO: Sent SIGKILL to Nomacs (PID: 75832)
+
+================================================================================
+SESSION STARTED: 2025-11-03 10:54:25
+================================================================================
+
+[2025-11-03 10:54:25] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 10:54:25] INFO: Security policy: restrictive
+[2025-11-03 10:54:25] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 10:54:25] INFO: Application: PDF (pdf_file.pdf)
+[2025-11-03 10:54:25] INFO: Blocking D-Bus (app does not require it)
+[2025-11-03 10:54:25] INFO: Command: firejail --dbus-user=none --dbus-system=none --net=none --nosound --novideo xdg-open /home/rachitsharma/Desktop/testFiles/pdf_file.pdf
+[2025-11-03 10:54:25] SUCCESS: Successfully launched PDF (pdf_file.pdf) (PID: 75956) in restrictive sandbox
+[2025-11-03 10:54:26] INFO: Detected external sandbox: PDF (pdf_file.pdf) (PID: 75956)
+[2025-11-03 10:54:35] INFO: Sent shutdown to PDF (pdf_file.pdf) (PID: 75956)
+[2025-11-03 10:54:35] INFO: Sent SIGKILL to PDF (pdf_file.pdf) (PID: 75956)
+
+================================================================================
+SESSION STARTED: 2025-11-03 10:55:09
+================================================================================
+
+[2025-11-03 10:55:09] INFO: Preparing to launch: /home/rachitsharma/Desktop/testFiles/writer_libre.odt
+[2025-11-03 10:55:09] INFO: Security policy: restrictive
+[2025-11-03 10:55:09] INFO: Resolved path: /home/rachitsharma/Desktop/testFiles/writer_libre.odt
+[2025-11-03 10:55:09] INFO: Application: Document (writer_libre.odt)
+[2025-11-03 10:55:09] INFO: Using filtered D-Bus (app requires it)
+[2025-11-03 10:55:09] INFO: Launching LibreOffice directly with lowriter
+[2025-11-03 10:55:09] INFO: Command: firejail --dbus-user=filter --dbus-system=none --net=none --nosound --novideo lowriter /home/rachitsharma/Desktop/testFiles/writer_libre.odt
+[2025-11-03 10:55:09] SUCCESS: Successfully launched Document (writer_libre.odt) (PID: 76069) in restrictive sandbox
+[2025-11-03 10:55:10] INFO: Detected external sandbox: Document (writer_libre.odt) (PID: 76069)
+[2025-11-03 11:00:33] INFO: Sent shutdown to Document (writer_libre.odt) (PID: 76069)
+[2025-11-03 11:00:33] INFO: Sent SIGKILL to Document (writer_libre.odt) (PID: 76069)

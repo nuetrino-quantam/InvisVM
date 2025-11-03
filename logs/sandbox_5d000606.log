@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Spotify
+================================================================================
+Start Time: 2025-11-03 01:28:31
+Security Policy: STANDARD
+Sandbox ID: 5d000606
+================================================================================
+
+[01:28:31] STARTUP: Initializing sandbox with standard policy
+[01:28:31] LAUNCH: Starting application in standard sandbox
+[01:28:31] SUCCESS: Application started successfully (PID: 48554)
+[01:28:31] SHUTDOWN: Application closed after 0.1s

@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Aria2c
+================================================================================
+Start Time: 2025-11-03 01:34:33
+Security Policy: PERMISSIVE
+Sandbox ID: 158217e5
+================================================================================
+
+[01:34:33] STARTUP: Initializing sandbox with permissive policy
+[01:34:33] LAUNCH: Starting application in permissive sandbox
+[01:34:33] SUCCESS: Application started successfully (PID: 49690)
+[01:34:33] SHUTDOWN: Application closed after 0.1s

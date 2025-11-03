@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Obsidian
+================================================================================
+Start Time: 2025-11-03 01:19:38
+Security Policy: PERMISSIVE
+Sandbox ID: 513ce38b
+================================================================================
+
+[01:19:38] STARTUP: Initializing sandbox with permissive policy
+[01:19:38] LAUNCH: Starting application in permissive sandbox
+[01:19:38] SUCCESS: Application started successfully (PID: 47401)
+[01:19:50] SHUTDOWN: Sandbox terminated by user

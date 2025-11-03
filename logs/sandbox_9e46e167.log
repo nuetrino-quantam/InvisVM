@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Superproductivity
+================================================================================
+Start Time: 2025-11-03 01:28:52
+Security Policy: RESTRICTIVE
+Sandbox ID: 9e46e167
+================================================================================
+
+[01:28:52] STARTUP: Initializing sandbox with restrictive policy
+[01:28:52] LAUNCH: Starting application in restrictive sandbox
+[01:28:52] SUCCESS: Application started successfully (PID: 48639)
+[01:28:52] RESTRICTED: Network access blocked by policy
+[01:28:52] INFO: Application is running in restricted mode
+[01:28:52] SHUTDOWN: Application closed after 0.1s

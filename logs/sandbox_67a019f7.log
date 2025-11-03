@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Lowriter
+================================================================================
+Start Time: 2025-11-03 01:20:02
+Security Policy: PERMISSIVE
+Sandbox ID: 67a019f7
+================================================================================
+
+[01:20:02] STARTUP: Initializing sandbox with permissive policy
+[01:20:02] LAUNCH: Starting application in permissive sandbox
+[01:20:02] SUCCESS: Application started successfully (PID: 47609)
+[01:20:14] SHUTDOWN: Sandbox terminated by user

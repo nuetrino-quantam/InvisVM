@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Evince
+================================================================================
+Start Time: 2025-11-03 10:53:51
+Security Policy: RESTRICTIVE
+Sandbox ID: 682d1096
+================================================================================
+
+[10:53:51] STARTUP: Initializing sandbox with restrictive policy
+[10:53:51] LAUNCH: Starting application in restrictive sandbox
+[10:53:51] SUCCESS: Application started successfully (PID: 75778)
+[10:53:51] RESTRICTED: Network access blocked by policy
+[10:53:51] INFO: Application is running in restricted mode
+[10:54:00] SHUTDOWN: Sandbox terminated by user

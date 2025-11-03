@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Firefox
+================================================================================
+Start Time: 2025-11-03 02:02:21
+Security Policy: PERMISSIVE
+Sandbox ID: a9d631f1
+================================================================================
+
+[02:02:21] STARTUP: Initializing sandbox with permissive policy
+[02:02:21] LAUNCH: Starting application in permissive sandbox
+[02:02:21] SUCCESS: Application started successfully (PID: 54684)
+[02:02:34] SHUTDOWN: Application closed after 13.7s

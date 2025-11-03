@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Xcalc
+================================================================================
+Start Time: 2025-11-03 01:34:23
+Security Policy: PERMISSIVE
+Sandbox ID: a9ba7cf8
+================================================================================
+
+[01:34:23] STARTUP: Initializing sandbox with permissive policy
+[01:34:23] LAUNCH: Starting application in permissive sandbox
+[01:34:23] SUCCESS: Application started successfully (PID: 49658)
+[01:34:40] SHUTDOWN: Application closed after 16.7s

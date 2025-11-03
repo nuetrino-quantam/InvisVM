@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Spotify
+================================================================================
+Start Time: 2025-11-03 01:21:42
+Security Policy: RESTRICTIVE
+Sandbox ID: 0b6bc056
+================================================================================
+
+[01:21:42] STARTUP: Initializing sandbox with restrictive policy
+[01:21:42] LAUNCH: Starting application in restrictive sandbox
+[01:21:42] SUCCESS: Application started successfully (PID: 47986)
+[01:21:42] RESTRICTED: Network access blocked by policy
+[01:21:42] INFO: Application is running in restricted mode
+[01:21:42] SHUTDOWN: Application closed after 0.1s

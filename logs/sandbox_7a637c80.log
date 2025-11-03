@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Sensible-browser
+================================================================================
+Start Time: 2025-11-03 01:20:49
+Security Policy: PERMISSIVE
+Sandbox ID: 7a637c80
+================================================================================
+
+[01:20:49] STARTUP: Initializing sandbox with permissive policy
+[01:20:49] LAUNCH: Starting application in permissive sandbox
+[01:20:49] SUCCESS: Application started successfully (PID: 47839)
+[01:20:49] SHUTDOWN: Application closed after 0.1s

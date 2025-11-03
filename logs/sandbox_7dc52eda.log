@@ -1,0 +1,11 @@
+================================================================================
+InvisVM Sandbox Log - Image (png_img.png)
+================================================================================
+Start Time: 2025-11-03 00:50:15
+Security Policy: STANDARD
+Sandbox ID: 7dc52eda
+================================================================================
+
+[00:50:15] STARTUP: Initializing sandbox with standard policy
+[00:50:15] LAUNCH: Starting application in standard sandbox
+[00:50:15] SUCCESS: Application started successfully (PID: 44479)

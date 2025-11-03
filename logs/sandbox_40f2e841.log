@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Popsicle-gtk
+================================================================================
+Start Time: 2025-11-03 01:21:25
+Security Policy: RESTRICTIVE
+Sandbox ID: 40f2e841
+================================================================================
+
+[01:21:25] STARTUP: Initializing sandbox with restrictive policy
+[01:21:25] LAUNCH: Starting application in restrictive sandbox
+[01:21:25] SUCCESS: Application started successfully (PID: 47942)
+[01:21:26] RESTRICTED: Network access blocked by policy
+[01:21:26] INFO: Application is running in restricted mode
+[01:21:34] SHUTDOWN: Application closed after 8.7s

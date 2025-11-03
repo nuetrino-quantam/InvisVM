@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Vlc
+================================================================================
+Start Time: 2025-11-03 01:30:01
+Security Policy: RESTRICTIVE
+Sandbox ID: a8c61b2e
+================================================================================
+
+[01:30:01] STARTUP: Initializing sandbox with restrictive policy
+[01:30:01] LAUNCH: Starting application in restrictive sandbox
+[01:30:01] SUCCESS: Application started successfully (PID: 48838)
+[01:30:01] RESTRICTED: Network access blocked by policy
+[01:30:01] INFO: Application is running in restricted mode
+[01:30:06] SHUTDOWN: Application closed after 5.5s

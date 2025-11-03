@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Firefox
+================================================================================
+Start Time: 2025-11-03 08:54:38
+Security Policy: STANDARD
+Sandbox ID: 667a903e
+================================================================================
+
+[08:54:38] STARTUP: Initializing sandbox with standard policy
+[08:54:38] LAUNCH: Starting application in standard sandbox
+[08:54:38] SUCCESS: Application started successfully (PID: 67134)
+[08:54:47] SHUTDOWN: Application closed after 9.6s

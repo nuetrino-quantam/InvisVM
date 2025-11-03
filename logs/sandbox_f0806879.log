@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Gnome-power-statistics
+================================================================================
+Start Time: 2025-11-03 01:33:42
+Security Policy: PERMISSIVE
+Sandbox ID: f0806879
+================================================================================
+
+[01:33:42] STARTUP: Initializing sandbox with permissive policy
+[01:33:42] LAUNCH: Starting application in permissive sandbox
+[01:33:42] SUCCESS: Application started successfully (PID: 49435)
+[01:33:43] SHUTDOWN: Application closed after 0.2s

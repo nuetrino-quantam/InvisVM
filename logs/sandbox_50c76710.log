@@ -1,0 +1,11 @@
+================================================================================
+InvisVM Sandbox Log - PDF (pdf_file.pdf)
+================================================================================
+Start Time: 2025-11-03 00:57:35
+Security Policy: RESTRICTIVE
+Sandbox ID: 50c76710
+================================================================================
+
+[00:57:35] STARTUP: Initializing with restrictive policy
+[00:57:35] LAUNCH: Starting in restrictive sandbox
+[00:57:35] SUCCESS: Started successfully (PID: 45929)

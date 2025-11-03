@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Eog
+================================================================================
+Start Time: 2025-11-03 01:46:05
+Security Policy: RESTRICTIVE
+Sandbox ID: 4d76dd2b
+================================================================================
+
+[01:46:05] STARTUP: Initializing sandbox with restrictive policy
+[01:46:05] LAUNCH: Starting application in restrictive sandbox
+[01:46:05] SUCCESS: Application started successfully (PID: 51583)
+[01:46:05] RESTRICTED: Network access blocked by policy
+[01:46:05] INFO: Application is running in restricted mode
+[01:46:38] SHUTDOWN: Sandbox terminated by user

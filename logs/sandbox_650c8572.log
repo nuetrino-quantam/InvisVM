@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Nomacs
+================================================================================
+Start Time: 2025-11-03 01:55:36
+Security Policy: RESTRICTIVE
+Sandbox ID: 650c8572
+================================================================================
+
+[01:55:36] STARTUP: Initializing sandbox with restrictive policy
+[01:55:36] LAUNCH: Starting application in restrictive sandbox
+[01:55:36] SUCCESS: Application started successfully (PID: 52884)
+[01:55:36] RESTRICTED: Network access blocked by policy
+[01:55:36] INFO: Application is running in restricted mode
+[01:55:43] SHUTDOWN: Application closed after 7.6s

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=InvisVM
+Comment=Security Sandbox Launcher
+Exec=/home/rachitsharma/InvisVM/invisvm-venv/bin/python3 /home/rachitsharma/InvisVM/main.py
+Icon=/home/rachitsharma/InvisVM/assets/icon.png
+Terminal=false
+Categories=Utility;

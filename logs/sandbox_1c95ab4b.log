@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Firefox
+================================================================================
+Start Time: 2025-11-03 02:02:37
+Security Policy: RESTRICTIVE
+Sandbox ID: 1c95ab4b
+================================================================================
+
+[02:02:37] STARTUP: Initializing sandbox with restrictive policy
+[02:02:37] LAUNCH: Starting application in restrictive sandbox
+[02:02:37] SUCCESS: Application started successfully (PID: 55249)
+[02:02:37] RESTRICTED: Network access blocked by policy
+[02:02:37] INFO: Application is running in restricted mode
+[02:02:54] SHUTDOWN: Sandbox terminated by user

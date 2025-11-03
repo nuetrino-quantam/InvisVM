@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - File-roller
+================================================================================
+Start Time: 2025-11-03 02:03:00
+Security Policy: RESTRICTIVE
+Sandbox ID: 4cdcbeb5
+================================================================================
+
+[02:03:00] STARTUP: Initializing sandbox with restrictive policy
+[02:03:00] LAUNCH: Starting application in restrictive sandbox
+[02:03:00] SUCCESS: Application started successfully (PID: 55760)
+[02:03:00] RESTRICTED: Network access blocked by policy
+[02:03:00] INFO: Application is running in restricted mode
+[02:05:23] SHUTDOWN: Sandbox terminated by user

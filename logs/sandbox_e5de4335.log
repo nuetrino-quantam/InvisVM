@@ -1,0 +1,11 @@
+================================================================================
+InvisVM Sandbox Log - PDF (pdf_file.pdf)
+================================================================================
+Start Time: 2025-11-03 08:55:24
+Security Policy: PERMISSIVE
+Sandbox ID: e5de4335
+================================================================================
+
+[08:55:24] STARTUP: Initializing sandbox with permissive policy
+[08:55:24] LAUNCH: Starting application in permissive sandbox
+[08:55:24] SUCCESS: Application started successfully (PID: 67753)

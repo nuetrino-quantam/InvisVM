@@ -1,0 +1,12 @@
+================================================================================
+InvisVM Sandbox Log - Superproductivity
+================================================================================
+Start Time: 2025-11-03 01:33:12
+Security Policy: PERMISSIVE
+Sandbox ID: 94df75c1
+================================================================================
+
+[01:33:12] STARTUP: Initializing sandbox with permissive policy
+[01:33:12] LAUNCH: Starting application in permissive sandbox
+[01:33:12] SUCCESS: Application started successfully (PID: 49293)
+[01:33:12] SHUTDOWN: Application closed after 0.1s

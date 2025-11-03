@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - PDF (pdf_file.pdf)
+================================================================================
+Start Time: 2025-11-03 02:03:51
+Security Policy: RESTRICTIVE
+Sandbox ID: f50fcc9d
+================================================================================
+
+[02:03:51] STARTUP: Initializing sandbox with restrictive policy
+[02:03:51] LAUNCH: Starting application in restrictive sandbox
+[02:03:51] SUCCESS: Application started successfully (PID: 56038)
+[02:03:51] RESTRICTED: Network access blocked by policy
+[02:03:51] INFO: Application is running in restricted mode
+[02:04:11] SHUTDOWN: Application closed after 20.3s

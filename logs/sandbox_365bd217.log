@@ -1,0 +1,11 @@
+================================================================================
+InvisVM Sandbox Log - PDF (pdf_file.pdf)
+================================================================================
+Start Time: 2025-11-02 20:16:49
+Security Policy: STANDARD
+Sandbox ID: 365bd217
+================================================================================
+
+[20:16:49] STARTUP: Initializing sandbox with standard policy
+[20:16:49] LAUNCH: Starting application in standard sandbox
+[20:16:49] SUCCESS: Application started successfully (PID: 23802)

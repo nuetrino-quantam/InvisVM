@@ -1,0 +1,14 @@
+================================================================================
+InvisVM Sandbox Log - Firefox
+================================================================================
+Start Time: 2025-11-03 08:54:14
+Security Policy: RESTRICTIVE
+Sandbox ID: 13ef20d1
+================================================================================
+
+[08:54:14] STARTUP: Initializing sandbox with restrictive policy
+[08:54:14] LAUNCH: Starting application in restrictive sandbox
+[08:54:14] SUCCESS: Application started successfully (PID: 66615)
+[08:54:14] RESTRICTED: Network access blocked by policy
+[08:54:14] INFO: Application is running in restricted mode
+[08:56:08] SHUTDOWN: Application closed after 113.7s

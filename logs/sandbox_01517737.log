@@ -1,0 +1,11 @@
+================================================================================
+InvisVM Sandbox Log - Image (Ce-2.jpeg)
+================================================================================
+Start Time: 2025-11-03 00:56:55
+Security Policy: RESTRICTIVE
+Sandbox ID: 01517737
+================================================================================
+
+[00:56:55] STARTUP: Initializing with restrictive policy
+[00:56:55] LAUNCH: Starting in restrictive sandbox
+[00:56:55] SUCCESS: Started successfully (PID: 45835)
