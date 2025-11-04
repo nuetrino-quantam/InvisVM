@@ -1,0 +1,228 @@
+# InvisVM - Security Analysis and Known Limitations
+
+## Overview
+This document provides a detailed assessment of potential security issues, vulnerabilities, and limitations within the InvisVM project. Each issue includes a description, risk level, relevant code references, and recommended mitigations.
+
+---
+
+## CRITICAL ISSUES
+
+### 1. Firejail Privilege Escalation Vulnerabilities
+
+Issue:
+Firejail has known vulnerabilities (e.g., CVE-2021-31532, CVE-2022-31214) that may allow sandbox escapes and privilege escalation.
+
+Risk Level: HIGH
+
+Mitigation:
+- Keep Firejail up to date.
+- Regularly monitor CVE databases.
+- Consider alternative sandboxing methods (bubblewrap, systemd-nspawn).
+
+Status: Partially mitigated (depends on user system updates).
+
+---
+
+### 2. Shared /tmp Directory Exploitation
+
+Issue:
+Default Firejail configurations may share the /tmp directory between host and sandboxed processes.
+
+Risk Level: MEDIUM-HIGH
+
+Mitigation:
+Isolate temporary directories by adding the following to build_firejail_command():
+```
+cmd.extend(['--private-tmp', '--private-dev'])
+```
+
+---
+
+### 3. X11 Security Exposure
+
+Issue:
+Applications using X11 can capture keystrokes, screenshots, and inject input across the desktop environment.
+
+Risk Level: HIGH
+
+Mitigation:
+Implement X11 isolation options such as Xephyr, Xpra, or disable X11 for non-GUI applications.
+
+---
+
+### 4. D-Bus Message Interception
+
+Issue:
+Some D-Bus messages may leak despite using `--dbus-user=filter`, exposing sensitive information.
+
+Risk Level: MEDIUM
+
+Mitigation:
+Whitelist only required D-Bus services and apply strict filtering rules.
+
+---
+
+### 5. Symlink Attack Vector
+
+Issue:
+Malicious symlinks in sandbox directories can point to host files, allowing unauthorized access.
+
+Risk Level: MEDIUM
+
+Mitigation:
+Use the following options in Firejail:
+```
+cmd.extend(['--nofollow', '--read-only=/'])
+```
+
+---
+
+## HIGH PRIORITY ISSUES
+
+### 6. State File Manipulation
+
+Issue:
+The file `~/InvisVM/logs/sandboxes.json` is world-readable/writable, leading to potential tampering.
+
+Risk Level: MEDIUM
+
+Mitigation:
+Restrict permissions using `os.chmod(self.state_file, 0o600)`.
+
+---
+
+### 7. Command Injection in File Paths
+
+Issue:
+Improperly sanitized file paths may allow command injection.
+
+Risk Level: HIGH
+
+Mitigation:
+Sanitize input using `shlex.quote()` before command execution.
+
+---
+
+### 8. Race Condition in Process Monitoring
+
+Issue:
+A timing gap exists between process launch and tracking registration.
+
+Risk Level: LOW-MEDIUM
+
+Mitigation:
+Pre-register sandbox process before launching it.
+
+---
+
+### 9. Firefox Profile Accumulation
+
+Issue:
+Temporary Firefox profiles are created but not deleted, leading to potential clutter.
+
+Risk Level: LOW
+
+Mitigation:
+Implement a cleanup mechanism for unused profiles.
+
+---
+
+### 10. Lack of AppArmor/SELinux Integration
+
+Issue:
+InvisVM does not leverage existing system security frameworks like AppArmor.
+
+Risk Level: MEDIUM
+
+Mitigation:
+Integrate AppArmor or SELinux profiles with sandbox execution.
+
+---
+
+## MEDIUM PRIORITY ISSUES
+
+### 11. Clipboard Sharing
+Issue: Clipboard data is shared between host and sandbox.
+Mitigation: Use `--noclipboard` option.
+
+### 12. Process Tree Visibility
+Issue: Sandboxed processes can access `/proc` on the host.
+Mitigation: Use `--private-proc` option.
+
+### 13. Network Namespace Bypass
+Issue: In permissive modes, full network access is allowed.
+Mitigation: Restrict ports via `--netfilter` configurations.
+
+### 14. Resource Limits Not Enforced
+Issue: No CPU, RAM, or file size restrictions exist.
+Mitigation: Add rlimit constraints for resource control.
+
+### 15. Sudo/PolicyKit Exploitation
+Issue: Sandboxed apps can invoke privileged dialogs.
+Mitigation: Disable sudo and PolicyKit access with `--nosudo --nopolicy`.
+
+---
+
+## LOW PRIORITY / UX ISSUES
+
+16. Lack of sandbox duration tracking  
+17. Aggressive “kill all” behavior without confirmation  
+18. Inefficient search tab performance due to full filesystem scans  
+19. No persistent user-defined sandbox profiles  
+20. Limited error visibility due to suppressed subprocess outputs  
+
+---
+
+## RECOMMENDED IMMEDIATE FIXES
+
+Priority 1 (Immediate):
+1. Sanitize user input with `shlex.quote()`.
+2. Secure state file permissions.
+3. Enforce `/tmp` isolation.
+4. Add X11 isolation.
+
+Priority 2 (Next Sprint):
+1. Add resource limits.
+2. Implement D-Bus whitelist.
+3. Integrate AppArmor profiles.
+4. Clean up Firefox profiles automatically.
+
+Priority 3 (Future):
+1. Explore Wayland isolation.
+2. Implement network filtering.
+3. Add policy persistence features.
+
+---
+
+## SECURITY BEST PRACTICES
+
+For Users:
+- Use restrictive mode for untrusted applications.
+- Keep Firejail and InvisVM updated.
+- Review logs and sandbox states regularly.
+
+For Developers:
+- Validate all user inputs.
+- Apply the principle of least privilege.
+- Deny by default in all security-related logic.
+
+---
+
+## THREAT MODEL SUMMARY
+
+| Attack Vector        | Risk  | Status        |
+|----------------------|-------|---------------|
+| Firejail CVEs        | High  | Partially mitigated |
+| X11 Keylogging       | High  | Not mitigated |
+| Command Injection    | High  | Not mitigated |
+| /tmp Sharing         | Medium| Partially mitigated |
+| D-Bus Leakage        | Medium| Partially mitigated |
+| State File Tampering | Medium| Not mitigated |
+| Clipboard Sharing    | Low   | Partially mitigated |
+| Resource Exhaustion  | Low   | Not mitigated |
+
+---
+
+## CONCLUSION
+
+InvisVM provides a strong baseline sandboxing framework but requires further hardening for production use. Critical focus areas include command injection prevention, X11 isolation, and secure state management. Implementing the Priority 1 fixes is essential before deployment in sensitive environments.
