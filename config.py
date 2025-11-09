@@ -47,7 +47,7 @@ SECURITY_POLICIES = {
         'description': 'Ultra-Restrictive (No network, No devices, Smart D-Bus filtering)'
     },
     'standard': {
-        'network': True,
+        'network': True,  # Unchanged - standard allows network
         'devices': False,
         'capabilities': ['drop-dangerous'],
         'description': 'Standard (Network allowed, Smart D-Bus filtering)'
@@ -62,7 +62,7 @@ SECURITY_POLICIES = {
 
 # Application settings
 APP_NAME = 'InvisVM'
-APP_VERSION = '1.0.1'  # Updated version with LibreOffice fix
+APP_VERSION = '1.0.2'  # Updated version with Python script fix
 WINDOW_WIDTH = 900
 WINDOW_HEIGHT = 700
 WINDOW_TITLE = f'{APP_NAME} v{APP_VERSION} - Security Sandbox Launcher'
